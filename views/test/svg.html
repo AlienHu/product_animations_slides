@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        img,
+        svg {
+            width: 500px;
+            height: 500px;
+        }
+
+        .social-link1 path:hover {
+            fill: green;
+            cursor: pointer;
+        }
+
+        .social-link2 path:hover {
+            fill: red;
+            cursor: pointer;
+        }
+
+        .social-link3 path:hover {
+            fill: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img id=" " class="svg social-link1 " src="../images/plate.svg " />
+    <img id=" " class="svg social-link2 " src="../images/table-path.svg " />
+    <img id="" class="svg social-link3 " src="../images/vaiter-path.svg " />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js " integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin=" anonymous ">
+
+        </script>
+    <script type="text/javascript">
+        /*
+         * Replace all SVG images with inline SVG
+         */
+        $(document).ready(function () {
+            jQuery('img.svg').each(function () {
+                var $img = jQuery(this);
+                var imgID = $img.attr('id');
+                var imgClass = $img.attr('class');
+                var imgURL = $img.attr('src');
+
+                jQuery.get(imgURL, function (data) {
+                    // Get the SVG tag, ignore the rest
+                    var $svg = jQuery(data).find('svg');
+
+                    // Add replaced image's ID to the new SVG
+                    if (typeof imgID !== 'undefined') {
+                        $svg = $svg.attr('id', imgID);
+                    }
+                    // Add replaced image's classes to the new SVG
+                    if (typeof imgClass !== 'undefined') {
+                        $svg = $svg.attr('class', imgClass + ' replaced-svg');
+                    }
+
+                    // Remove any invalid XML tags as per http://validator.w3.org
+                    $svg = $svg.removeAttr('xmlns:a');
+
+                    // Replace image with new SVG
+                    $img.replaceWith($svg);
+
+                }, 'xml');
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

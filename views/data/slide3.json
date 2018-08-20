@@ -1,0 +1,298 @@
+{
+  "desktop": {
+      "demo":{
+          "animation":[{
+            "XPosition": null,
+            "YPosition": null,
+            "scale": null,
+            "display": false,
+            "duration": 1,
+            "offset": 0  
+      
+          },
+          {
+            "XPosition": null,
+            "YPosition": null,
+            "scale": null,
+            "display": true,
+            "duration": 1,
+            "offset": 2
+          }
+          
+          ],
+          "images":[{
+      
+              "desc": "main profit guru image",
+              "targetName": "sol",
+              "imageURL": "images/home/stick.png",
+              "animation":[{
+              
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": null,
+                "duration": 0,
+                "offset": 1000,
+                "zIndex": null
+              },
+              {
+              "XPosition": "17%",
+              "YPosition": "0%",
+              "scale": 0.2,
+              "display": false,
+              "duration": 0,
+              "offset": 1000,
+              "zIndex": 0
+            },
+            {
+              "XPosition": "17%",
+              "YPosition": "0%",
+              "scale": 2,
+              "display": true,
+              "duration": 0,
+              "offset": 1000,
+              "zIndex": null
+            },
+            {
+              "XPosition": "0%",
+              "YPosition": "0%",
+              "scale": 0,
+              "display": false,
+              "duration": 0,
+              "offset": 5000,
+              "zIndex": 0
+            }
+            ]
+           },
+           {
+      
+              "desc": "main profit guru image",
+              "targetName": "boosss",
+              "imageURL": "images/home/boss1.png",
+              "animation":[{
+              
+                "XPosition": "10%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": null,
+                "duration": 0,
+                "offset": 7500,
+                "zIndex": null
+              },
+              {
+              "XPosition": "10%",
+              "YPosition": "5%",
+              "scale": 0.2,
+              "display": false,
+              "duration": 0,
+              "offset": 7500,
+              "zIndex": 0
+            },
+            {
+              "XPosition": "35%",
+              "YPosition": "30%",
+              "scale": 1.8,
+              "display": true,
+              "duration": 0,
+              "offset": 7500,
+              "zIndex": null
+            }
+            ]
+           }
+          ],
+          "messages":[{
+              "targetName": "tally",
+              "text": "Tally Wally Is For Accountact!!!",
+              "animation":[{
+                  "XPosition": "10%",
+                  "YPosition": "0%",
+                  "scale": 0,
+                  "display": true,
+                  "duration": 500,
+                  "offset": 0
+                },
+                {
+                  "XPosition": "10%",
+                  "YPosition": "0%",
+                  "scale": 4,
+                  "display": null,
+                  "duration": 0,
+                  "offset": 3000
+                },
+                {
+                  "XPosition": "11%",
+                  "YPosition": "30%",
+                  "scale": 1.9,
+                  "display": null,
+                  "duration": 0,
+                  "offset": 3000
+                },
+                {
+                  "XPosition": "10%",
+                  "YPosition": "0%",
+                  "scale": 0,
+                  "display": false,
+                  "duration": 0,
+                  "offset": 5000
+                }
+              ]  
+            },
+            
+              {
+              "targetName": "Sol",
+              "text": "Solution?",
+              "animation":[{
+                  "XPosition": "10%",
+                  "YPosition": "0%",
+                  "scale": 0,
+                  "display": false,
+                  "duration": 500,
+                  "offset": 0
+                },
+                {
+                  "XPosition": "10%",
+                  "YPosition": "5%",
+                  "scale": 3,
+                  "display": false,
+                  "duration": 0,
+                  "offset": 2000
+                },
+                {
+                  "XPosition": "10%",
+                  "YPosition": "5%",
+                  "scale": 3,
+                  "display": true,
+                  "duration": 0,
+                  "offset": 2000
+              },
+              {
+                  "XPosition": "10%",
+                  "YPosition": "0%",
+                  "scale": 0,
+                  "display": false,
+                  "duration": 0,
+                  "offset": 5000
+              }
+          ]
+        },
+        {
+          "targetName": "Youneed",
+          "text": "You Need!!!",
+          "animation":[{
+              "XPosition": "10%",
+              "YPosition": "0%",
+              "scale": 0,
+              "display": false,
+              "duration": 500,
+              "offset": 0
+            },
+            {
+              "XPosition": "10%",
+              "YPosition": "5%",
+              "scale": 3,
+              "display": false,
+              "duration": 0,
+              "offset": 5500
+            },
+            {
+              "XPosition": "0%",
+              "YPosition": "0%",
+              "scale": 2.5,
+              "display": true,
+              "duration": 0,
+              "offset": 5500
+          }
+      ]
+      },
+      {
+          "targetName": "boss1",
+          "text": "Business Operating Software System!!(BOSS)",
+          "animation":[{
+              "XPosition": "10%",
+              "YPosition": "0%",
+              "scale": 0,
+              "display": false,
+              "duration": 500,
+              "offset": 0
+            },
+            {
+              "XPosition": "10%",
+              "YPosition": "5%",
+              "scale": 3,
+              "display": false,
+              "duration": 0,
+              "offset": 6500
+            },
+            {
+              "XPosition": "0%",
+              "YPosition": "5%",
+              "scale": 2.5,
+              "display": true,
+              "duration": 0,
+              "offset": 6500
+          }
+      ]
+    },
+    {
+      "targetName": "yupp",
+      "text": "Yup That's",
+      "animation":[{
+          "XPosition": "10%",
+          "YPosition": "0%",
+          "scale": 0,
+          "display": false,
+          "duration": 500,
+          "offset": 0
+        },
+        {
+          "XPosition": "10%",
+          "YPosition": "5%",
+          "scale": 3,
+          "display": false,
+          "duration": 0,
+          "offset": 8000
+        },
+        {
+          "XPosition": "3%",
+          "YPosition": "30%",
+          "scale": 2,
+          "display": true,
+          "duration": 0,
+          "offset": 8000
+      }
+      ]
+      },
+      {
+        "targetName": "bossss",
+        "text": "BOSS",
+        "animation":[{
+            "XPosition": "10%",
+            "YPosition": "0%",
+            "scale": 0,
+            "display": false,
+            "duration": 500,
+            "offset": 0
+          },
+          {
+            "XPosition": "10%",
+            "YPosition": "5%",
+            "scale": 3,
+            "display": false,
+            "duration": 0,
+            "offset": 9000
+          },
+          {
+            "XPosition": "3%",
+            "YPosition": "35%",
+            "scale": 3.5,
+            "display": true,
+            "duration": 0,
+            "offset": 9000
+        }
+        ]
+        }                 
+    ]
+    
+  }        
+}
+}

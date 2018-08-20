@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="AlienHu Private Limited" />
+    <meta name="google-site-verification" content="2C_0CBpEUvAkk5UUV36kM-KFXx7VDj4kYvARxkIBH1s" />
+    <meta name="google-site-verification" content="SZSKGgh5bG9RTo4H_YnVqqyfgJeKgapVcTb5bzL3xgY" />
+    <meta name="description" content="ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; Easy-to-use. Book today only.">
+    <meta name="keywords" content="ProfitGuru, POS, ERP, GST, retail POS, Restuarant POS, Saloon POS, CRM POS, Point of sale, AlienHu, Business Solutions, Business Software, Simple solution for POS, User-friendly POS">
+    <meta property="og:title" content="ProfitGuru POS &amp; ERP Solutions for your Business">
+    <meta property="og:image" content="/images/favicon.png">
+    <meta property="og:description" content="POS was never so easy to get started with. ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; User-friendly. Book today only">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+    <title>AlienHu ProfitGuru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- attach CSS styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/websiteStyle.css" rel="stylesheet" />
+    <link href="css/messenger.css" rel="stylesheet" />
+    <!-- include the style -->
+    <link rel="stylesheet" href="alertifyjs/css/alertify.css" />
+    <!-- include a theme -->
+    <link rel="stylesheet" href="alertifyjs/css/themes/default.css" />
+    <!--<link href="css/unlsider.css" rel="stylesheet" />
+    <link href="css/unlsider-dots.css" rel="stylesheet" />-->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Kaushan+Script|Open+Sans|Quicksand|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader">
+        <center></center>
+    </div>
+    <style>
+        #loader {
+            display: block;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            z-index: 9999;
+            background-color: #ECF0F1;
+        }
+
+        #loader center {
+            margin: auto;
+            position: relative;
+            margin-top: 40vh;
+            vertical-align: top;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #002451;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+            z-index: 9999;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .white {
+            color: #fff
+        }
+    </style>
+    <!-- attach JavaScripts -->
+    <!--  BODY PAGE CONTENT -->
+    <!-- navigation panel -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand-name" href="/">
+                    <img class="logo" src="images/test2.svg">
+                    <!--span class="logo">&nbsp;<b>A</b>lien<b>H</b>u</span-->
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#slider" class="header-menu">Home</a></li>-->
+                    <li>
+                        <a href="/#slider" class="header-menu">Products</a>
+                    </li>
+                    <li>
+                        <a href="website.html" class="header-menu">Website Showcase
+                            <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="hardware.html" class="header-menu">Hardware
+                            <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/#pricing" class="header-menu">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="/#services" class="header-menu">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header-menu">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://alienhu.com:2020/blog/" class="header-menu">Blog</a>
+                    </li>
+                    <li>
+                        <a href="testimonials.html" class="header-menu">Testimonials
+                            <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+                        </a>
+                    </li>
+                    <!--<li class="try-free-nav"><a href="/trilPG">Try ProfitGuruPos fo Free</a></li>-->
+                    <li class="try-free-nav header-menu">
+                        <a onclick="demoPopUpHandler()">Try Demo</a>
+                    </li>
+                    <li class="download header-menu">
+                        <a onclick="showDownload()">Download</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- first section - Home -->
+    <div id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src='images/hardware/H2156A.png' class="img-responsive" style="max-height: 400px; margin: 0px auto ">
+                    <h1 class="text-center">H2156A Android 15.6+15.6 inch Cashier Register Pos Terminal</h1>
+                </div>
+                <h2>Specifications</h2>
+                <table class="table table-striped">
+                    <tr>
+                        <td>CPU 2.0</td>
+                        <td>1.8GHZ RK3288 Quad-core processor</td>
+                    </tr>
+                    <tr>
+                        <td> Operation System</td>
+                        <td> Android 6.0,support multi language</td>
+                    </tr>
+                    <tr>
+                        <td> DDR</td>
+                        <td> 2GB</td>
+                    </tr>
+                    <tr>
+                        <td> Nand Flash</td>
+                        <td> 8GB EMMC</td>
+                    </tr>
+                    <tr>
+                        <td> LCD</td>
+                        <td> TFT 15.6 inch,1366*768 resolution</td>
+                    </tr>
+                    <tr>
+                        <td> Touch Screen</td>
+                        <td> Capacitive multi-touch screen</td>
+                    </tr>
+                    <tr>
+                        <td> WIFI</td>
+                        <td> Comply with IEEE802.11b/g /n</td>
+                    </tr>
+                    <tr>
+                        <td> Customer Display Screen</td>
+                        <td> 15.6 inch LCD screen</td>
+                    </tr>
+                    <tr>
+                        <td> Bluetooth</td>
+                        <td> BT 4.0</td>
+                    </tr>
+                    <tr>
+                        <td> USB Port</td>
+                        <td> 8 USB slot</td>
+                    </tr>
+                    <tr>
+                        <td> Serial Port</td>
+                        <td> 4 Serial port</td>
+                    </tr>
+                    <tr>
+                        <td> Rj45 Port</td>
+                        <td> 1 Ethernet port</td>
+                    </tr>
+                    <tr>
+                        <td> RJ11 Port</td>
+                        <td> 1 Cash drawer port</td>
+                    </tr>
+                    <tr>
+                        <td> SD Slot</td>
+                        <td> 1 slot,Max 32 GB</td>
+                    </tr>
+                    <tr>
+
+                        <td> Microphone</td>
+                        <td> 1 speaker slot</td>
+                    </tr>
+                    <tr>
+                        <td> Earphone</td>
+                        <td> 1 earphone slot</td>
+                    </tr>
+                    <tr>
+                        <td> Magnetic Stripe reader (Optional)</td>
+                        <td> Supports triple track (tracks 1/2/3), bi-directional</td>
+                    </tr>
+                    <tr>
+                        <td> NFC Card Reader(Optional)</td>
+                        <td> 13.56MHZ ISO/IEC 14443 TYPE A/B. Mifare card read and write</td>
+                    </tr>
+                    <tr>
+                        <td> 4G(Optional)</td>
+                        <td> LTE-FDD B1/B3/B8,LTE-TDD B38/B39/B40/B41,compatible with 3G/2G</td>
+                    </tr>
+                    <tr class="success">
+                        <td colspan="2">Packing</td>
+                    </tr>
+                    <tr>
+                        <td> Packing</td>
+                        <td> Standard industrial packing</td>
+                    </tr>
+                    <tr>
+
+                        <td> Adapater</td>
+                        <td> Input 100-240V power output DC12V,2A</td>
+                    </tr>
+                    <tr>
+
+                        <td> Weight</td>
+                        <td> G.W:9KG,N.W:7.5KG</td>
+                    </tr>
+                    <tr>
+
+                        <td> Dimension</td>
+                        <td> 485*340*500MM</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="whatsappbot" style="display: inline-block!important;position: fixed;bottom: 15px;left: 15px;z-index: 1500; background-color: #fff; padding-right: 10px;">
+        <img src="images/Whatsapp.png" style=" width:55px;">
+        <a href="https://wa.me/919148325949">+91 91483 25949</a>
+    </div>
+    <div id="chatbot">
+        <div id="bot-open">
+            <img src="images/chat-green-new.svg" onerror="this.src='images/chat-red.png'">
+        </div>
+        <!--<iframe width="35%" height="400" src="https://console.api.ai/api-client/demo/embedded/f75d7109-0b29-4532-9aa0-692acbd98e62"></iframe>-->
+        <div id="messenger" class="animated">
+
+            <div class="head">
+                <span>ProfitGuru Help</span>
+                <a class="tel" href="tel:+917022507345">
+                    <img src="images/phone.svg">
+                </a>
+                <a class="mail" href="mailto:admin@alienhu.com">
+                    <img src="images/mail.svg">
+                </a>
+                <a class="closex">
+                    <img src="images/close-red.svg">
+                </a>
+            </div>
+            <div class="box">
+                <div class="bot">
+                    <span class="msg">Hi, how can I help you?</span>
+                </div>
+                <!--div class="hidden">Support call 7022507345</div-->
+            </div>
+            <div class="input">
+                <input type="text" id="guest-input" placeholder="Enter your message" required>
+                <img id="msg-send" src="images/send.svg">
+            </div>
+        </div>
+    </div>
+    <!-- /fifth section -->
+    <!-- attach JavaScripts -->
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!--<script src="https://maps.google.com/maps/api/js?key=AIzaSyC4ODZyvvmOqhELVaa60sjaCs61VqsCfm0"></script>-->
+    <!--<script type="text/javascript " src="js/jquery.scrollTo.min.js "></script>
+    <script type="text/javascript " src="js/jquery.localScroll.min.js "></script>-->
+    <script type="text/javascript " src="js/css3-animate-it.js"></script>
+    <!--<script type="text/javascript " src="js/unslider.min.js"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+    <script src="js/main.js "></script>
+    <script src="alertifyjs/alertify.min.js"></script>
+    <!-- footer -->
+    <footer class="footer ">
+        <!--   <hr /> -->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-4 ">
+                    <h5>Reach us @</h5>
+                    <p class="footer-font text-left ">
+                        <span class="glyphicon glyphicon-phone "></span>
+                        <b>:+91-7022507345</b>
+                        <br/>
+                        <b>
+                            <i class="glyphicon glyphicon-phone-alt "></i>: 08284-230272</b>
+                        <br/>
+                        <b>
+                            <i class="glyphicon glyphicon-envelope mail "></i>: sales@alienhu.com</b>
+                    </p>
+                    <h5>Support</h5>
+                    <p>
+                        <img class="footer_image " src="images/Whatsapp.png" width="32" /> +91-7676555938 </p>
+                </div>
+                <div class="col-sm-4 ">
+                    <h5>Links</h5>
+                    <a href="/index.html" class="footer-font white">Home</a>
+                    <br>
+                    <a href="http://alienhu.com:2020/blog/" class="footer-font white">Blog</a>
+                    <br>
+                    <a href="/contact" class="footer-font white">Contact</a>
+                    <br>
+                    <!-- <a href="career"  class="footer-font white">Career</a> <br> -->
+                    <a href="hardware.html" class="footer-font white">Hardware</a>
+                    <br>
+                </div>
+                <div class="col-sm-4 ">
+                    <h5>Follow Us </h5>
+                    <a href="https://www.facebook.com/profitgurupos ">
+                        <img class="footer_image " src="images/Facebook.png " /> </a>
+                    <a href="https://twitter.com/Alienhu_PvtLtd ">
+                        <img class="footer_image " src="images/Twitter.png " /> </a>
+                    <a href="https://www.linkedin.com/company/alienhu-private-limited?trk=ppro_cprof ">
+                        <img class="footer_image " src="images/LinkedIn.png " /> </a>
+                    <a>
+                        <img class="footer_image " src="images/GooglePlus.png " /> </a>
+                    <a href="https://www.youtube.com/watch?v=-ABowGb4Lm8&feature=youtu.be ">
+                        <img class="footer_image " src="images/YouTube.png " /> </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center footer-extra-links" style="font-size:12px">
+            <hr>
+            <span>
+                <i class="glyphicon glyphicon-asterisk fnt12 white">
+                </i>
+                <a target="new" href="/termsAndConditions" class="white">Terms &amp; Conditions</a>
+            </span>
+            <span>
+                <i class="glyphicon glyphicon-eye-close fnt12 white">
+                </i>
+                <a target="new" href="privacy" class="white">Privacy Policies</a>
+            </span>
+            <span>
+                <i class="glyphicon glyphicon-usd fnt12 white">
+                </i>
+                <a target="new" href="refundPolicy" class="white">Refund Policy</a>
+            </span>
+        </div>
+
+    </footer>
+    <!-- /footer -->
+    <!--<div id="lft-fxd">
+        <a class="fb" href="https://www.facebook.com/profitgurupos"><img src="images/Facebook.png"></a>
+        <a class="yt" href="https://www.youtube.com/watch?v=-ABowGb4Lm8"><img src="images/YouTube.png"></a>
+    </div>-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-101688117-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

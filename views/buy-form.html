@@ -1,0 +1,191 @@
+<script>
+    choice = "";
+    name = "pack";
+    url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) {
+        console.log('null value');
+    }
+    if (!results[2]) {
+        console.log('empty value');
+    }
+    choice = decodeURIComponent(results[2].replace(/\+/g, " "));
+</script>
+<br>
+<br>
+<center>
+    <label id="label">Provide your mobile number to finish the booking</label>
+    <br>
+    <br>
+    <h1 id="message"></h1>
+    <div id="form">
+        <select id="select_pack" name="package">
+            <option>ProfirGuru POS Basic</option>
+            <option>ProfirGuru POS Standard</option>
+            <option>ProfirGuru POS Premium</option>
+            <option>ProfirGuru ERP</option>
+            <!--<option>Free POS for Computer Shop</option>-->
+        </select>
+        <br>
+        <select name="state" id="state" autofocus required onchange="changeColor()">
+            <option value="">Please select your state</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jammu and Kashmir</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab </option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+            <option>Andaman and Nicobar Islands</option>
+            <option>Chandigarh</option>
+            <option>Dadra and Nagar Haveli</option>
+            <option>Daman and Diu</option>
+            <option>Lakshadweep</option>
+            <option>National capital territory of Delhi</option>
+            <option>Puducherry</option>
+        </select>
+        <input placeholder="Your Name" id="name" required minlength="3" maxlength="20">
+        <input id="phone" type="tel" placeholder="Mobile number" name="phone" required minlength="10" maxlength="10">
+        <button type="button" onclick="finishBook()">Book Now</button>
+    </div>
+    <br>
+    <p>*Reach us for any help at admin@alienhu.com or 7022507345</p>
+</center>
+<style>
+    label {
+        font-size: 20px;
+    }
+
+    form,
+    select,
+    input,
+    button {
+        display: block;
+        position: relative;
+        margin: 10px auto;
+    }
+
+    input,
+    button,
+    select {
+        padding: 10px 21px;
+        width: 400px;
+        font-size: 20px;
+        border-radius: 3px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    select {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+
+    select option {
+        background-color: white;
+        color: green;
+        display: block;
+        position: relative;
+        padding: 10px 6px;
+        cursor: pointer;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: white;
+        color: green;
+        box-shadow: green 2px 2px 2px;
+    }
+
+    button:hover {
+        /*background-color: green;*/
+        /*color: white;*/
+        background-color: #e9f995;
+    }
+
+    #state {
+        background-color: white;
+        color: gray;
+    }
+
+    #state option:first-of-type {
+        color: gray!important;
+    }
+</style>
+<script>
+    var selectbox = document.getElementById('select_pack');
+    if (choice == 'basic') {
+        selectbox.options[0].selected = true;
+    } else if (choice == 'standard') {
+        selectbox.options[1].selected = true;
+    } else if (choice == 'premium') {
+        selectbox.options[2].selected = true;
+    } else if (choice == 'erp') {
+        selectbox.options[3].selected = true;
+    } else if (choice == 'computer') {
+        selectbox.options[4].selected = true;
+    }
+
+    function changeColor() {
+        var select = document.getElementById('state');
+        if (select.value != "") {
+            select.style.color = 'green';
+        } else {
+            select.style.color = 'gray';
+        }
+    }
+
+    function finishBook() {
+        var packSelect = document.getElementById('select_pack').value;
+        // var packageOption=packSelect.options[packSelect.selectedIndex].text;
+        var phone = document.getElementById('phone').value.trim();
+        var state = document.getElementById('state').value.trim();
+        var name = document.getElementById('name').value.trim();
+        if (phone == undefined || phone == null || phone == "") return;
+        if (state == undefined || state == null || state == "") return;
+        if (name == undefined || name == null || name == "") return;
+        var phoneno = /[2-9]{2}\d{8}/;
+        if ((phoneno.exec(phone)) == null) {
+            alert('Invalid phone number.')
+            return;
+        }
+        // alert(packSelect+phone)
+        document.getElementById("message").innerHTML = "Please wait...";
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById('form').style.display = 'none';
+                document.getElementById('label').style.display = 'none';
+                document.getElementById("message").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "/book_package?phone=" + phone + "&package=" + packSelect + "&name=" + name + "&state=" +
+            state, true);
+        xhttp.send();
+    }
+</script>

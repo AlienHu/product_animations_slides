@@ -1,0 +1,393 @@
+{
+    "desktop": {
+        "demo":{
+
+            "animation":[{
+           
+              "XPosition": null,
+              "YPosition": null,
+              "scale": null,
+              "display": false,
+              "duration": 1,
+              "offset": 0  
+        
+            },
+            {
+              "XPosition": null,
+              "YPosition": null,
+              "scale": null,
+              "display": true,
+              "duration": 1,
+              "offset": 2
+            },
+            {
+              "XPosition": "0",
+              "YPosition": null,
+              "scale": null,
+              "display": true,
+              "duration": 500,
+              "offset": 2600
+            }
+              
+            ],
+           
+            "messages":[{
+              "targetName": "yourpbm",
+              "text": "Your Problems!!!",
+              "animation":[{
+                  "XPosition": "10%",
+                  "YPosition": "10%",
+                  "scale": 0,
+                  "display": true,
+                  "duration": 500,
+                  "offset": 0
+                },
+                {
+                  "XPosition": "0%",
+                  "YPosition": "45%",
+                  "scale": 4,
+                  "display": null,
+                  "duration": 500,
+                  "offset": 500
+                },
+                {
+                  "XPosition": "0%",
+                  "YPosition": "5%",
+                  "scale": 4,
+                  "display": null,
+                  "duration": 1000,
+                  "offset": 1000
+                }
+              ]
+              
+              
+            }
+              
+            ],
+            "images":[{
+        
+              "desc": "main profit guru image",
+              "targetName": "profitguru1",
+              "imageURL": "images/home/profitguru.png",
+              "animation":[{
+              
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": null,
+                "duration": 0,
+                "offset": 2000,
+                "zIndex": null
+              },
+              {
+              "XPosition": "5%",
+              "YPosition": "0%",
+              "scale": 0.2,
+              "display": true,
+              "duration": 500,
+              "offset": 2000,
+              "zIndex": 0
+            },
+            {
+              "XPosition": "5%",
+              "YPosition": "-5%",
+              "scale": 0.6,
+              "display": true,
+              "duration": 500,
+              "offset": 2500,
+              "zIndex": null
+            }
+            ]
+           },
+           {
+                "desc": "sub image payment",
+                "targetName": "computer1",
+                "imageURL": "images/home/computer.png",
+                "animation": [{
+                    "XPosition": "-20%",
+                    "YPosition": "-35%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "-20%",
+                    "YPosition": "-35%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 2700
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 3000,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "hardware",
+                "imageURL": "images/home/hardware.png",
+                "animation": [{
+                    "XPosition": "-17%",
+                    "YPosition": "-10%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "-17%",
+                    "YPosition": "-10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 4000
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 4300,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "skills1",
+                "imageURL": "images/home/skills.png",
+                "animation": [{
+                    "XPosition": "-13%",
+                    "YPosition": "15%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "-13%",
+                    "YPosition": "15%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 5300
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 5600,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image support",
+                "targetName": "support1",
+                "imageURL": "images/home/support.png",
+                "animation": [{
+                    "XPosition": "3%",
+                    "YPosition": "29%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "3%",
+                    "YPosition": "29%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 6600
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 6900,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "onlineoffline1",
+                "imageURL": "images/home/onlineoffline.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "29%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "29%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 7900
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 8200,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "language1",
+                "imageURL": "images/home/language.png",
+                "animation": [{
+                    "XPosition": "37%",
+                    "YPosition": "29%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "37%",
+                    "YPosition": "29%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 9200
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 9500,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image intial",
+                "targetName": "intial1",
+                "imageURL": "images/home/initial.png",
+                "animation": [{
+                    "XPosition": "53%",
+                    "YPosition": "15%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "53%",
+                    "YPosition": "15%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 10500
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 10800,
+                    "zIndex": 100
+                  }
+                ]
+            },
+            {
+                "desc": "sub image gst",
+                "targetName": "multiplatform1",
+                "imageURL": "images/home/platform.png",
+                "animation": [{
+                    "XPosition": "57%",
+                    "YPosition": "-10%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "57%",
+                    "YPosition": "-10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 11800
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 12100,
+                    "zIndex": 100
+                  }
+                ]
+            },
+            {
+                "desc": "sub image gst",
+                "targetName": "security1",
+                "imageURL": "images/home/security.png",
+                "animation": [{
+                    "XPosition": "60%",
+                    "YPosition": "-35%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2600,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "60%",
+                    "YPosition": "-35%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 300,
+                    "offset": 13100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 1000,
+                    "offset": 13400,
+                    "zIndex": 100
+                  }
+                ]
+              }
+        ]
+    }
+  }
+}           

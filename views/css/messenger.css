@@ -1,0 +1,199 @@
+/*
+** CSS for messenger
+** 21 June, 2017
+** Deepak Jha
+*/
+
+#messenger {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 24%;
+    min-width: 240px;
+    max-width: 500px;
+    min-height: 240px;
+    /*height: 320px;*/
+    height: 400px;
+    max-height: 500px;
+    border: 2px outset #2a3e5b;
+    font-size: 16px;
+    border-right: none;
+    display: none;
+    /*animation-name: wiggle;*/
+    /*-webkit-animation-name: tada;*/
+    /*-o-animation-name: wiggle;
+            -moz-animation-name: wiggle;*/
+    /*box-shadow:#70C041 15px 15px 15px ;*/
+    box-shadow: 0 4px 8px 0 #2A3E5B, 0 6px 20px 0 #2A3E5B;
+    -webkit-box-shadow: 0 4px 8px 2px #2A3E5B, 0 6px 20px 2px #2A3E5B;
+}
+
+#messenger .head {
+    background-color: #2a3e5b;
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#messenger .head span {
+    vertical-align: top;
+    font-size: 18px;
+    margin-top: 4px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+#messenger .head img {
+    width: 26px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+#messenger .head .mail img {
+    width: 26px;
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+#messenger .head .tel img {
+    display: block;
+    position: absolute;
+    right: 93px;
+    top: 10px;
+}
+
+#messenger .head .closex {
+    position: absolute;
+    right: 26px;
+    width: 20px;
+    display: block;
+    top: 10px;
+    cursor: pointer;
+}
+
+#messenger .box {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    height: 300px;
+    font-size: 16px;
+    overflow-y: scroll;
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+    line-height: 150%;
+    background-color: whitesmoke;
+}
+
+#messenger .box .hidden {
+    display: block;
+    position: relative;
+    height: 20px;
+    background-color: whitesmoke;
+    clear: both;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#messenger .bot {
+    /*background-color: white;*/
+    display: block;
+    position: relative;
+    float: left;
+    clear: both;
+    margin: 4px auto;
+    border-radius: 5px;
+    word-wrap: break-word;
+    /*overflow-y: scroll;*/
+    overflow-wrap: break-word;
+    text-overflow: auto;
+    width: 100%;
+    overflow-y: visible;
+}
+
+#messenger .guest {
+    display: block;
+    position: relative;
+    float: right;
+    clear: both;
+    /*padding: 10px;*/
+    margin: 4px auto;
+    text-align: right;
+    color: black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: auto;
+    width: 100%;
+    overflow-y: visible;
+}
+
+.msg {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    max-width: 96%;
+    border-radius: 5px;
+}
+
+.bot .msg {
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+}
+
+.guest .msg {
+    background-color: #70C041;
+    color: white;
+    margin-right: 2%;
+}
+
+#messenger .input {
+    display: block;
+    position: bottom;
+    bottom: 40px;
+    width: 100%;
+    /*visibility: hidden;*/
+}
+
+#messenger .input input {
+    display: block;
+    padding: 10px 14px;
+    width: 100%;
+    font-size: 15px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-top: 1px solid gray;
+    border-bottom: 2px inset #2A3E5B;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    letter-spacing: 0.03em;
+    line-height: 150%;
+}
+
+#messenger .input input:focus {
+    border-top: 1px solid #70C041;
+}
+
+#messenger .input img {
+    width: 40px;
+    height: 34px;
+    position: absolute;
+    display: block;
+    bottom: 8px;
+    right: 20px;
+}

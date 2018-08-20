@@ -1,0 +1,487 @@
+{
+    "desktop":{
+ 
+        "problem2":{
+            "animation":[{
+
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": false,
+                "duration": 1,
+                "offset": 0 
+            
+            },
+            {
+                "XPosition": "100%",
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 1,
+                "offset": 2
+            },
+            {
+                "XPosition": "0",
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 500,
+                "offset": 500
+            }
+
+            ],
+            "images":[{
+                "desc": "so computerized",
+                "targetName": "newmain1",
+                "imageURL": "images/home/newmain4.png",
+                "animation":[{
+                   
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 500,
+                    "zIndex": null
+                 
+                 },
+                 {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 500,
+                    "zIndex": 0
+                 },
+                 {
+                    "XPosition": "20%",
+                    "YPosition": "5%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 1000,
+                    "zIndex": null
+                 },
+                 {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 5000,
+                    "zIndex": 0
+                 }
+
+                ] 
+                
+            },
+            {
+                "desc": "main image2",
+                "targetName": "main2",
+                "imageURL": "images/home/main2.png",
+                "animation":[{
+                        "XPosition": "0%",
+                        "YPosition": "0%",
+                        "scale": 0,
+                        "display": null,
+                        "duration": 0,
+                        "offset": 5500,
+                        "zIndex": null
+                    
+                 },
+                 {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5500,
+                    "zIndex": 0
+                 },
+                 {
+                    "XPosition": "-0%",
+                    "YPosition": "-50%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5500,
+                    "zIndex": null
+                 }
+ 
+                ]
+            },
+            {
+                "desc": "but",
+                "targetName": "but",
+                "imageURL": "images/home/but.png",
+                "animation":[{
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 6500,
+                    "zIndex": null
+                     
+
+                  },
+                  {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 6500,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "27%",
+                    "YPosition": "2%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 6500,
+                    "zIndex": 0
+                  }
+
+                ]
+            },
+            {
+                "desc": "computer",
+                "targetName": "computer",
+                "imageURL": "images/home/computer.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 7500,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-15%",
+                    "YPosition": "-35%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 9500,
+                    "zIndex": 0
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "hardware",
+                "imageURL": "images/home/hardware.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 10000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "-25%",
+                    "YPosition": "-5%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 12000,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "skills",
+                "imageURL": "images/home/skills.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 12500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "-20%",
+                    "YPosition": "25%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 14500,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image support",
+                "targetName": "support",
+                "imageURL": "images/home/support.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 15000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 17000,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "onlineoffline",
+                "imageURL": "images/home/onlineoffline.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 17500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "30%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 19500,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "language",
+                "imageURL": "images/home/language.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 20000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "40%",
+                    "YPosition": "30%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 22000,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image intial",
+                "targetName": "intial",
+                "imageURL": "images/home/initial.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 22500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "55%",
+                    "YPosition": "25%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 24500,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "multiplatform",
+                "imageURL": "images/home/multiplatform.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 25000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "60%",
+                    "YPosition": "-5%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 27000,
+                    "zIndex": 100
+                  }
+                ]
+              },
+              {
+                "desc": "sub image gst",
+                "targetName": "security",
+                "imageURL": "images/home/security.png",
+                "animation": [{
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                    "XPosition": "18%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 27500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "50%",
+                    "YPosition": "-35%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 29500,
+                    "zIndex": 100
+                  }
+                ]
+              }
+                  
+           ],
+           
+           "messages":[{
+                
+            "targetName": "So",
+            "text": "So You Decided To Computerize?",
+            "animation":[{
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 2
+              },
+              {
+                    "XPosition": "0%",
+                    "YPosition": "35%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 1500
+              },
+              {
+                    "XPosition": "1%",
+                    "YPosition": "0%",
+                    "scale": 2.5,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 2000
+              },
+              {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 2.5,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 5000
+               }
+                
+              ]
+           
+            }
+            
+
+            ]
+        }
+        
+    }
+}

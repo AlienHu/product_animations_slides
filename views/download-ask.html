@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            display: block;
+        }
+
+        #pre-conf button {
+            padding: 10px 30px;
+            position: relative;
+            background-color: #22313F;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 3px;
+            margin: 20px;
+            cursor: pointer;
+            vertical-align: top;
+            display: inline-block;
+            text-transform: capitalize;
+            width: 196px;
+            height: 186px;
+            box-shadow: gray 4px 4px 4px;
+            color: #eded80;
+        }
+
+        #pre-conf button:hover {
+            background-color: green;
+        }
+
+        button img {
+            width: 80px;
+            height: 80px;
+            display: block;
+            position: relative;
+            margin: 10px auto;
+            height: auto;
+            padding: 10px 0;
+        }
+
+        button span {
+            display: block;
+            font-size: 15px;
+            padding: 4px 0;
+            text-align: center;
+            font-style: italic;
+            color: #ccccb7;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        #form {
+            display: none;
+        }
+
+        #form input {
+            display: block;
+            padding: 8px 10px;
+            font-size: 16px;
+            border-radius: 3px;
+            width: 240px;
+            margin: 10px auto;
+        }
+
+        #form .btn {
+            padding: 10px 30px;
+            position: relative;
+            background-color: #22313F;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 3px;
+            margin: 20px;
+            cursor: pointer;
+            display: block;
+        }
+
+        #form .btn:hover {
+            background-color: green;
+        }
+
+        #tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            display: none;
+        }
+
+        #tab span {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 0;
+            transition: 0.3s;
+            font-size: 17px;
+            width: 33%;
+        }
+
+        #tab span:hover {
+            background-color: #ddd;
+        }
+
+        #tab span.active {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <center id="form">
+        <h2>Enter Email or Phone Number to Download.</h2>
+        <input type="email" id="email" placeholder="Email Id">
+        <input type="tel" id="phone" placeholder="Mobile Number" minlength="10" maxlength="12">
+        <button class="btn" type="button" onclick="validAndGo()">Submit</button>
+    </center>
+    <center id="pre-conf">
+        <br>
+        <div id="tab">
+            <span id="firstTab" class="tablinks" onclick="showByCategory('pos', event)">POS Software</span>
+            <span class="tablinks" onclick="showByCategory('erp', event)">ERP Software</span>
+            <span class="tablinks" onclick="showByCategory('terminal', event)">Terminals</span>
+        </div>
+        <h2 id="msg">Please wait...</h2>
+        <br>
+        <div id="list"></div>
+    </center>
+    <script>
+        var linkToGo = "";
+        var appType = "";
+
+        function validAndGo() {
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var phoneno = /[2-9]{2}\d{8}/;
+            var emailr = /\S+@\S+\.\S+/;
+            // console.log(phoneno.exec(user_msg));
+            if ((phoneno.exec(phone)) == null && (emailr.exec(email)) == null) {
+                alert('Please provide valid contact details.')
+                return;
+            }
+            var xhttp = new XMLHttpRequest();
+            console.log('created');
+            xhttp.onreadystatechange = function () {
+                console.log('processing');
+                if (this.readyState == 4 && this.status == 200) {
+                    // var downloadList=JSON.parse(this.responseText);
+                    console.log('done');
+                    window.top.location.href = linkToGo;
+                    return;
+                }
+            };
+            xhttp.open("GET", "/downloaders_contact?email=" + email + "&phone=" + phone + "&app=" + appType, true);
+            xhttp.send();
+            console.log('sent');
+        }
+
+        function redLink(module, app) {
+            appType = app;
+            linkToGo = module;
+            document.getElementById('form').style.display = "block";
+            document.getElementById('pre-conf').style.display = "none";
+            // window.top.location.href=module;
+            // return;
+        }
+        var downloadList = {};
+        var msg = document.getElementById('msg');
+
+        function getDownloadList() {
+            // var contact=document.getElementById('contact').value;
+            var xhttp = new XMLHttpRequest();
+            msg.innerHTML = 'Please wait...';
+            xhttp.onreadystatechange = function () {
+                if (this.status >= 400) {
+                    msg.innerHTML = 'Failed to get download list';
+                } else if (this.readyState <= 3) {
+                    msg.innerHTML = 'Getting download list...';
+                } else if (this.readyState == 4 && this.status == 200) {
+                    downloadList = JSON.parse(this.responseText);
+                    if (downloadList.length == 0) {
+                        msg.innerHTML = 'No software found...Check back later.';
+                        return;
+                    }
+                    for (var i = 0; i < downloadList.length; i++) {
+                        var btn = document.createElement('button');
+                        var downloadItem = downloadList[i];
+                        if (downloadItem.category)
+                            btn.setAttribute('class', downloadItem.category);
+                        var img = document.createElement('img');
+                        btn.appendChild(img);
+                        var text = document.createTextNode(downloadItem.name);
+                        btn.appendChild(text);
+                        btn.setAttribute('onclick', 'redLink(\'' + decodeURI(downloadItem.link) + '\', \'' +
+                            downloadItem.type + '\')');
+                        var span = document.createElement('span');
+                        var build = document.createTextNode('Build: ' + downloadItem.build);
+                        span.appendChild(build);
+                        btn.appendChild(span);
+                        img.setAttribute('src', 'images/' + downloadItem.icon);
+                        document.getElementById("list").appendChild(btn);
+                        document.getElementById('tab').style.display = "block";
+                        showByCategory('pos');
+                    }
+                    msg.innerHTML = 'Click icon to download our software.';
+                }
+            };
+            xhttp.open("GET", "/download_list", true);
+            xhttp.send();
+        }
+
+        function showByCategory(category, evt) {
+            var p = document.getElementById("list");
+            var l = p.getElementsByTagName('button');
+            var ctr = 0;
+            var i, tablinks;
+            for (i = 0; i < l.length; i++) {
+                if (!category || l[i].className == category) {
+                    l[i].style.display = "inline-block";
+                    ctr += 1;
+                } else
+                    l[i].style.display = "none";
+            }
+            if (ctr == 0) {
+                msg.innerHTML = 'No software as of now. Check back soon.';
+            } else {
+                msg.innerHTML = 'Click icon to download our software.';
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            if (evt)
+                evt.currentTarget.className += " active";
+            else
+                document.getElementById('firstTab').className += " active";
+
+        }
+        getDownloadList();
+    </script>
+</body>
+
+</html>

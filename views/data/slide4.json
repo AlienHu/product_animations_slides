@@ -1,0 +1,526 @@
+{
+  "desktop":{
+
+        "ani1":{
+            "animation":[{
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": false,
+                "duration": 1,
+                "offset": 0
+             },
+             {
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 1,
+                "offset": 2
+             }
+             
+
+            ],
+            "images":[{
+                "desc": "Moving person",
+                "targetName": "movingperson",
+                "imageURL": "images/home/gipy.gif",
+                "animation":[{
+                    
+                        "XPosition": "120%",
+                        "YPosition": "10%",
+                        "scale": 0,
+                        "display": null,
+                        "duration": 0,
+                        "offset": 500,
+                        "zIndex": null
+
+                    },
+                    {
+                        "XPosition": "70%",
+                        "YPosition": "15%",
+                        "scale": 0.4,
+                        "display": true,
+                        "duration": 0,
+                        "offset": 1000,
+                        "zIndex": 0
+                    },
+                    {
+                        "XPosition": "10%",
+                        "YPosition": "15%",
+                        "scale": 0.4,
+                        "display": true,
+                        "duration": 20000,
+                        "offset": 2000,
+                        "zIndex": null
+                    },
+                    {
+                        "XPosition": "10%",
+                        "YPosition": "15%",
+                        "scale": 0,
+                        "display": false,
+                        "duration": 0,
+                        "offset": 7000,
+                        "zIndex": 0
+                    }
+                
+               
+                 ]
+
+
+              },
+              {
+                "desc": "Moving person",
+                "targetName": "stopperson",
+                "imageURL": "images/home/p21.jpg",
+                "animation":[{
+
+                    "XPosition": "20%",
+                    "YPosition": "15%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 7000,
+                    "zIndex": 0
+
+                  },
+                  {
+                    "XPosition": "-5%",
+                    "YPosition": "15%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 21500,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-20%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 23500,
+                    "zIndex": 0
+                  }
+                 
+                    
+                ]
+              },
+              {
+                "desc": "Moving ufo",
+                "targetName": "ufo",
+                "imageURL": "images/home/ufo.png",
+                "animation":[{
+
+                    "XPosition": "-100%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 500,
+                    "zIndex": null
+                
+                  },
+                  {
+                    "XPosition": "-100%",
+                    "YPosition": "-10%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 3000,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "0%",
+                    "YPosition": "-10%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 3000,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "70%",
+                    "YPosition": "-10%",
+                    "scale": 0,
+                    "display": true,
+                    "duration":7000,
+                    "offset": 5000,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "-7%",
+                    "YPosition": "-10%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration":0,
+                    "offset": 24500,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "70%",
+                    "YPosition": "-10%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration":4000,
+                    "offset": 27500,
+                    "zIndex": null
+                  }
+                    
+                ]
+              },
+              {
+                "desc": "aliehu",
+                "targetName": "alien",
+                "imageURL": "images/home/alien1.png",
+                "animation":[{
+
+                    "XPosition": "0%",
+                    "YPosition": "-10%",
+                    "scale": 0,
+                    "display": null,
+                    "duration": 0,
+                    "offset": 500,
+                    "zIndex": null
+                
+                  },
+                  {
+                    "XPosition": "0%",
+                    "YPosition": "-10%",
+                    "scale": 0.2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5000,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-13%",
+                    "YPosition": "-10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5000,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "-13%",
+                    "YPosition": "10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 5000,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "10%",
+                    "YPosition": "10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 6000,
+                    "zIndex": null
+                  },
+                  {
+                    "XPosition": "10%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 16200,
+                    "zIndex": null
+                  }
+                    
+                ]
+              },
+              {
+                "desc": "Message1",
+                "targetName": "msg1",
+                "imageURL": "images/home/m1.png",
+                "animation":[{
+                    "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 8000,
+                    "zIndex": 0
+
+               
+                  },
+                  {
+                    "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 10000,
+                    "zIndex": 0
+                  }
+
+                    
+                ]
+              },
+              {
+                "desc": "Message2",
+                "targetName": "msg2",
+                "imageURL": "images/home/m2.png",
+                "animation":[{
+                    "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 10000,
+                    "zIndex": 0
+
+               
+                  },
+                  {
+                    "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 12000,
+                    "zIndex": 0
+                  }
+
+                    
+                ]
+              },
+              {
+                "desc": "Message3",
+                "targetName": "msg3",
+                "imageURL": "images/home/m3.png",
+                "animation":[{
+                    "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 12000,
+                    "zIndex": 0
+
+               
+                  },
+                  {
+                    "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 14000,
+                    "zIndex": 0
+                  }
+
+                    
+                ]
+              },
+              {
+                "desc": "Message4",
+                "targetName": "msg4",
+                "imageURL": "images/home/m4.png",
+                "animation":[{
+                    "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 14000,
+                    "zIndex": 0
+
+               
+                  },
+                  {
+                    "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 16000,
+                    "zIndex": 0
+                  }
+
+                    
+                ]
+              },
+              {
+                "desc": "ALIEN2",
+                "targetName": "alien2",
+                "imageURL": "images/home/Alien2.png",
+                "animation":[{
+                  "XPosition": "10%",
+                  "YPosition": "10%",
+                  "scale": 0.45,
+                  "display": true,
+                  "duration": 0,
+                  "offset": 16100,
+                  "zIndex": null
+                  },
+                  {
+                    "XPosition": "10%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 20000,
+                    "zIndex": null
+                  }
+                  
+                ]
+              },
+              {
+                "desc": "profitguru",
+                "targetName": "profitguru",
+                "imageURL": "images/home/pg2.png",
+                "animation":[{
+                  "XPosition": "-20%",
+                  "YPosition": "5%",
+                  "scale": 0.6,
+                  "display": true,
+                  "duration": 0,
+                  "offset": 16700,
+                  "zIndex": null
+                  },
+                  {
+                    "XPosition": "-20%",
+                  "YPosition": "5%",
+                  "scale": 0.4,
+                  "display": true,
+                  "duration": 1000,
+                  "offset": 24500,
+                  "zIndex": null
+                  },
+                  {
+                    "XPosition": "-20%",
+                  "YPosition": "-40%",
+                  "scale": 0,
+                  "display": true,
+                  "duration": 2000,
+                  "offset": 25500,
+                  "zIndex": null
+                  }
+                  
+                ]
+              },
+              {
+                "desc": "msg5",
+                "targetName": "msg5",
+                "imageURL": "images/home/m5.png",
+                "animation":[{
+                  "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 18000,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "23%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 20000,
+                    "zIndex": 0
+                  }
+                  
+                ]
+              },
+              {
+                "desc": "alien3",
+                "targetName": "alien3",
+                "imageURL": "images/home/alien3.png",
+                "animation":[{
+                  "XPosition": "10%",
+                    "YPosition": "10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 20000,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-10%",
+                    "YPosition": "10%",
+                    "scale": 0.4,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 21500,
+                    "zIndex": 0
+                  },
+                  
+                    {
+                      "XPosition": "-20%",
+                      "YPosition": "5%",
+                      "scale": 0,
+                      "display": true,
+                      "duration": 1000,
+                      "offset": 23500,
+                      "zIndex": 0
+                    }
+                  
+                  
+                ]
+
+              },
+              {
+                "desc": "msg6",
+                "targetName": "msg6",
+                "imageURL": "images/home/m6.png",
+                "animation":[{
+                  "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 20000,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-10%",
+                    "YPosition": "-40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 21500,
+                    "zIndex": 0
+                  }
+                  
+                ]
+              },
+              {
+                "desc": "alienhuworld",
+                "targetName": "alienhuworld",
+                "imageURL": "images/home/alienhuworld.png",
+                "animation":[{
+                  "XPosition": "100%",
+                    "YPosition": "-80%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 29500,
+                    "zIndex": 0
+                  },
+                  {
+                    "XPosition": "-10%",
+                    "YPosition": "-30%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration":5000,
+                    "offset": 29500,
+                    "zIndex": 0
+                  }
+                 
+                  
+                ]
+              }
+             
+
+            ]
+        }
+  
+  }
+
+}

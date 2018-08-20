@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+        }
+
+        h1 {
+            display: block;
+        }
+
+        button {
+            padding: 10px;
+            position: relative;
+            background-color: #22313F;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 3px;
+            margin: 20px;
+            cursor: pointer;
+            vertical-align: top;
+            display: inline-block;
+            text-transform: capitalize;
+            width: 176px;
+            height: 166px;
+            box-shadow: gray 4px 4px 4px;
+            color: #eded80;
+        }
+
+        button img {
+            width: 50%;
+            display: block;
+            position: relative;
+            margin: 10px auto;
+            height: auto;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        #cred {
+            display: block;
+            position: fixed;
+            width: 100%;
+            background-color: green;
+            color: white;
+            bottom: 0px;
+            text-align: center;
+            font-size: 18px;
+            margin: 0;
+            /*display: none;*/
+        }
+
+        #close {
+            display: block;
+            color: maroon;
+            position: absolute;
+            right: 30px;
+            font-size: 16px;
+            line-height: 18px;
+            bottom: 0;
+            margin: 0;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center id="pre-conf">
+        <br>
+        <h2>Click button to try a demo</h2>
+        <br>
+        <!-- Uncomment when website demo is implemented -->
+        <!-- <h3>POS</h3>
+        <button onclick="demo('retail')">
+            <img src="images/demo-pos.svg">Retaill POS</button>
+        <button onclick="demo('restaurant')">
+            <img src="images/demo-restaurant.svg">Restaurant POS</button>
+        <hr> -->
+        <h3>ERP Solution</h3>
+        <button onclick="erpdemo('retail')">
+            <img src="images/demo-erp.svg">Retail ERP</button>
+        <button onclick="erpdemo('school')">
+            <img src="images/demo-school.svg">School ERP</button>
+        <button onclick="erpdemo('manufacture')">
+            <img src="images/demo_manufacture.svg">Manufacture ERP</button>
+        <button onclick="erpdemo('distribution')">
+            <img src="images/demo_distribution.svg">Distribution ERP</button>
+        <button onclick="erpdemo('services')">
+            <img src="images/demo_services.svg">Services ERP</button>
+        <!-- Uncomment when website demo is implemented -->
+        <!--
+            <button onclick="demo('retail')">
+            <img src="images/demo-garments.svg">Garments POS</button>
+        <button onclick="demo('retail')">
+            <img src="images/demo-furniture.svg">Furniture POS</button>
+        <button onclick="demo('retail')">
+            <img src="images/demo-electronics.svg">Electronics POS</button>
+        <button onclick="demo('retail')">
+            <img src="images/demo-jwellary.svg">Jwellwery POS</button>
+        -->
+    </center>
+    <!--<center id="pre-conf">
+        <br>
+        <h2>Click button to try a demo of our ERP Solutions</h2>
+        <br>
+        <button onclick="erpdemo('retail')">
+            <img src="images/demo-erp.svg">Retail ERP</button>
+        <button onclick="erpdemo('school')">
+            <img src="images/demo-school.svg">School ERP</button>
+         <button onclick="demo('retail')"><img src="images/demo-grocery.svg">Grocery POS</button> 
+         <button onclick="demo('restaurant')"><img src="images/demo-restaurant.svg">Restaurant POS</button>
+        <button onclick="erpdemo('manufacture')">
+            <img src="images/demo_manufacture.svg">Manufacture ERP</button>
+        <button onclick="erpdemo('distribution')">
+            <img src="images/demo_distribution.svg">Distribution ERP</button>
+        <button onclick="erpdemo('services')">
+            <img src="images/demo_services.svg">Services ERP</button>-->
+    <!-- <button onclick="demo('retail')"><img src="images/demo-garments.svg">Garments POS</button> -->
+    <!-- <button onclick="demo('retail')"><img src="images/demo-furniture.svg">Furniture POS</button> -->
+    <!-- <button onclick="demo('retail')"><img src="images/demo-electronics.svg">Electronics POS</button> -->
+    <!-- <button onclick="demo('retail')"><img src="images/demo-jwellary.svg">Jwellwery POS</button> -->
+    </center>
+    <iframe id="demo-box" frameborder="0"></iframe>
+    <h2 id="cred"></h2>
+    <span id="close" onclick="closeCred()">close</span>
+    <script>
+        function erpdemo(module) {
+            var iframe;
+            var pre;
+            var cred = document.getElementById("cred");
+            cred.innerHTML = "Username: " + module + "@alienhu.com , Password: " + module;
+            cred.style.display = "block";
+            document.getElementById('close').style.display = "block";
+            iframe = document.getElementById("demo-box");
+            iframe.frameBorder = "no";
+            iframe.width = "100%";
+            iframe.height = "96%";
+            iframe.margin = "0";
+            iframe.padding = "0";
+            iframe.border = "none";
+            if (module == "school")
+                iframe.src = "http://212.47.235.185:8181";
+            else if (module == "services")
+                iframe.src = "http://212.47.235.185:9191";
+            else if (module == "retail")
+                iframe.src = "http://212.47.235.185:8888";
+            else if (module == "manufacture")
+                iframe.src = "http://212.47.235.185:8686";
+            else if (module == "distribution")
+                iframe.src = "http://212.47.235.185:9696";
+            else {
+                iframe.src = "http://212.47.235.185";
+                cred.innerHTML = "Call 7022507345 for credentails.";
+            }
+
+
+            pre = document.getElementById("pre-conf");
+            pre.style.display = "none";
+            return;
+        }
+        choice = "";
+        name = "pack";
+        url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) {
+            console.log('null value');
+        }
+        if (!results[2]) {
+            console.log('empty value');
+        }
+        choice = decodeURIComponent(results[2].replace(/\+/g, " "));
+        erpdemo(choice);
+    </script>
+    <script type="text/javascript">
+        function prepareFrame() {
+            var ifrm = document.createElement("iframe");
+            ifrm.setAttribute("src", "http://google.com/");
+            ifrm.style.width = "640px";
+            ifrm.style.height = "480px";
+            document.body.appendChild(ifrm);
+        }
+
+        function closeCred() {
+            document.getElementById('cred').style.display = "none";
+            document.getElementById('close').style.display = "none";
+        }
+
+        function demo(choice) {
+            // iframe = document.createElement('iframe');
+            // iframe.frameBorder = "no";
+            // iframe.width = "100%";
+            // iframe.height = "100%";
+            // iframe.src = "http://alienhu.com/trilPG";
+
+            // var box = document.getElementById("demo-box");
+            // box.appendChild(iframe);
+
+            // document.getElementById("box-demo").appendChild(iframe);
+            // return;
+            document.writeln('<center><h2><br><br>Please wait...</h2></center>');
+            console.log(choice);
+            if (choice == 'restaurant') {
+                window.location = "/pgRestaurant";
+            } else {
+                window.location = "/pgRetail";
+            }
+
+        }
+    </script>
+</body>
+
+</html>

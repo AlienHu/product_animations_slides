@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="AlienHu Private Limited" />
+  <meta name="google-site-verification" content="2C_0CBpEUvAkk5UUV36kM-KFXx7VDj4kYvARxkIBH1s" />
+  <meta name="google-site-verification" content="SZSKGgh5bG9RTo4H_YnVqqyfgJeKgapVcTb5bzL3xgY" />
+  <meta name="description" content="ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; Easy-to-use. Book today only.">
+  <meta name="keywords" content="ProfitGuru, POS, ERP, GST, retail POS, Restuarant POS, Saloon POS, CRM POS, Point of sale, AlienHu, Business Solutions, Business Software, Simple solution for POS, User-friendly POS">
+  <meta property="og:title" content="ProfitGuru POS &amp; ERP Solutions for your Business">
+  <meta property="og:image" content="/images/favicon.png">
+  <meta property="og:description" content="POS was never so easy to get started with. ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; User-friendly. Book today only">
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+  <title>AlienHu ProfitGuru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- attach CSS styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/animations.css" rel="stylesheet">
+  <link href="css/websiteStyle.css" rel="stylesheet" />
+  <link href="css/messenger.css" rel="stylesheet" />
+  <!-- include the style -->
+  <link rel="stylesheet" href="alertifyjs/css/alertify.css" />
+  <!-- include a theme -->
+  <link rel="stylesheet" href="alertifyjs/css/themes/default.css" />
+  <!--<link href="css/unlsider.css" rel="stylesheet" />
+    <link href="css/unlsider-dots.css" rel="stylesheet" />-->
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Kaushan+Script|Open+Sans|Quicksand|Roboto" rel="stylesheet">
+</head>
+
+<body id="body">
+  <!-- 08 July, 17 -->
+  <div id="loader">
+    <center></center>
+  </div>
+  <style>
+    #loader {
+      display: block;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      z-index: 9999;
+      background-color: #ECF0F1;
+    }
+
+    #loader center {
+      margin: auto;
+      position: relative;
+      margin-top: 40vh;
+      vertical-align: top;
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #002451;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      z-index: 9999;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .white {
+      color: #fff
+    }
+  </style>
+  <!-- attach JavaScripts -->
+  <!--  BODY PAGE CONTENT -->
+  <!-- navigation panel -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand brand-name" href="/">
+          <img class="logo" src="images/test2.svg">
+          <!--span class="logo">&nbsp;<b>A</b>lien<b>H</b>u</span-->
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <!--<li><a href="#slider" class="header-menu">Home</a></li>-->
+          <li>
+            <a href="/#slider" class="header-menu">Products</a>
+          </li>
+          <li>
+            <a href="website.html" class="header-menu">Website Showcase
+              <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+            </a>
+
+          </li>
+          <li>
+            <a href="hardware.html" class="header-menu">Hardware
+              <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+            </a>
+          </li>
+          <li>
+            <a href="/#pricing" class="header-menu">Pricing</a>
+          </li>
+          <li>
+            <a href="/#services" class="header-menu">Services</a>
+          </li>
+          <li>
+            <a href="contact.html" class="header-menu">Contact</a>
+          </li>
+          <li>
+            <a href="http://alienhu.com:2020/blog/" class="header-menu">Blog</a>
+          </li>
+          <li>
+            <a href="testimonials.html" class="header-menu">Testimonials
+              <span class="badge" style="background-color: orangered;font-size: 9px;margin-top: -34px;margin-left: -16px;">NEW</span>
+            </a>
+          </li>
+          <!--<li class="try-free-nav"><a href="/trilPG">Try ProfitGuruPos fo Free</a></li>-->
+          <li class="try-free-nav header-menu">
+            <a onclick="demoPopUpHandler()">Try Demo</a>
+          </li>
+          <li class="download header-menu">
+            <a onclick="showDownload()">Download</a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- first section - Home -->
+
+  <div id="slider" class="slider product">
+    <div class="container top-code" id="home-fake">
+      <div id="banner" class="row">
+        <div class="what-sol">
+          <img src="images/pos.svg">
+        </div>
+        <div class="rasp">
+          <img src="images/rasp.svg">
+          <!--<button>Book Now</button>-->
+        </div>
+        <div class="label">Offline, Online &amp; Works on Any device
+          <span class="gst-enabled animated wobble">GST Enabled</span>
+        </div>
+      </div>
+      <br>
+      <h2 class="text-center">ProfitGuru Suits the Every Need of Your Business</h2>
+      <center class="animatedParent">
+        <!--<h3 class="text-center">ProfitGuru POS &amp; ERP Solutions for Every Business</h3>-->
+      </center>
+      <div class="container" id="">
+        <ul id="lightSlider">
+          <li onclick="demoPOS('restaurant')" class="">
+            <div class="yes">
+              <img alt="Computer ready" src="images/pc-yes.svg">
+              <img alt="Mobile ready" src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <img class="img-snipp" src="images/set-res.png" />
+            </div>
+            <div class="">
+              <center>
+                <h3 class="">Restaurants, Cafe, Food Court &amp; Food Trucks</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('restaurant')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoPOS('furniture')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/furniture.svg" /> </center>
+              <center>
+                <h3 class="">Interiors, Furniture Shops &amp; Home Decors</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('furniture')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoPOS('electronics')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/set-ele.png" /> </center>
+              <center>
+                <h3 class="">Mobiles, Gadget Stores &amp; Electronic Shops</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('electronics')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoPOS('grocery')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <img class="img-snipp set-gro" src="images/set-gro.png" />
+            </div>
+            <div class="">
+              <center>
+                <h3 class="">Groceries Store &amp; General Items Shop</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('grocery')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoPOS('garments')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/set-gar.png" /> </center>
+              <center>
+                <h3 class="">Lifetsyle, Fashion &amp; Garments Stores</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('garments')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoPOS('jwellary')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <img class="img-snipp" src="images/jewellary.svg" />
+            </div>
+            <div class="">
+              <center>
+                <h3 class="">Ornaments, Precious Stones &amp; Jewellery Sales</h3>
+              </center>
+              <center>
+                <button onclick="demoPOS('jwellary')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoERP('school')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/school.svg" /> </center>
+              <center>
+                <h3 class="">Schools, Kindergartens, Colleges &amp; Institutes</h3>
+              </center>
+              <center>
+                <button onclick="demoERP('school')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoERP('hospital')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/hospital.svg" /> </center>
+              <center>
+                <h3 class="">Hospitals, Clinics, Medical Helps, Surgeons</h3>
+              </center>
+              <center>
+                <button onclick="demoERP('hospital')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoERP('distribution')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/distribution.svg" /> </center>
+              <center>
+                <h3 class="">Distribution Center, Supply Chain &amp; Delivery</h3>
+              </center>
+              <center>
+                <button onclick="demoERP('distribution')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoERP('manufacture')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/manufacture.svg" /> </center>
+              <center>
+                <h3 class="">Manufacturing, Factories &amp; Production Units </h3>
+              </center>
+              <center>
+                <button onclick="demoERP('manufacture')">Try now</button>
+              </center>
+            </div>
+          </li>
+          <li onclick="demoERP('services')" class="">
+            <div class="yes">
+              <img src="images/pc-yes.svg">
+              <img src="images/mobile-yes.svg">
+            </div>
+            <div class="">
+              <center>
+                <img class="img-snipp" src="images/services.svg" /> </center>
+              <center>
+                <h3 class="">Services, Repairing &amp; Service Centers</h3>
+              </center>
+              <center>
+                <button onclick="demoERP('services')">Try now</button>
+              </center>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="home" class="home">
+    <div class="container top-code" id="home-label-psuedo">
+
+      <div class="container">
+        <!--<h1 class="text-center">ProfitGuru - POS &amp; ERP</h1>-->
+        <center>
+          <h2 class="code">ProfitGuru offers a Complete Solution for your Ever Growing Business.</h2>
+        </center>
+
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="animatedParent">
+              <img class="imageresp animated fadeInLeft delay-100" src="images/crm.svg" />
+            </div>
+            <div class="animatedParent delay-400">
+              <center>
+                <h3 class="animated fadeIn">ProfitGuru ERP Solutions</h3>
+              </center>
+              <center>
+                <p class="animated fadeIn">ProfitGuru offers next generation ERP integrated with CRM &amp; HRM. So that you can manage your whole business
+                  with ease.</p>
+              </center>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="animatedParent">
+              <center>
+                <img class="animated fadeInLeft delay-500" src="images/moniter.svg" /> </center>
+            </div>
+            <div class="animatedParent delay-500">
+              <center>
+                <h3 class="animated fadeIn">Sell Anytime on Any Device</h3>
+              </center>
+              <center>
+                <p class="animated fadeIn">Offline or Online? Never Get Cut from your Business. Be it in your PC, tablet or phone, we covered it all!</p>
+              </center>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="animatedParent">
+              <center>
+                <img class="animated fadeInDown delay-800" src="images/integration.svg" /> </center>
+              <center>
+                <h3 class="animated fadeIn delay-800">One-Click Integration</h3>
+              </center>
+              <center>
+                <p class="animated fadeIn delay-900">Want to move from other POS to ProfitGuru? We made it so simple as one-click.</p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--<div class="container">
+                <div class="row" class="text-center">
+                    <div class="col-sm-6">
+                        <div class="animatedParent" data-sequence='500'>
+                            <img class="imageresp animated fadeInLeft" data-id='1' src="images/moniter.svg" />
+                            <img class="imageresp animated fadeInRight" data-id='2' src="images/tablet.svg" />
+                            <img class="imageresp animated fadeInRight" data-id='3' src="images/mobile.svg" />
+                        </div>
+                        <div class="animatedParent delay-2000" data-sequence='500'>
+                            <center>
+                                <h3 class="animated fadeIn" data-id='1'> Sell with any device</h3>
+                            </center>
+                            <center>
+                                <p class="animated fadeIn" data-id='2'> Be it in your PC, tablet or phone, we covered it all!</p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="animatedParent">
+                            <center> <img class="animated fadeInDown delay-1500" src="images/cloud1.svg" /> </center>
+                            <center>
+                                <h3 class="animated fadeIn delay-2000">Cloud Synchronization</h3>
+                            </center>
+                            <center>
+                                <p class="animated fadeIn delay-2500"> Instantaneous data synchronization.</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+
+    </div>
+  </div>
+  <!--<div id="pricing" class="pricing">
+        <br>
+        <center><h1>Our package <span class="greenify">Starts from ₹ 7700 /- only</span></h1></center>
+        <br>
+    </div>-->
+  <div id="pricing" class="" style="">
+    <center>
+      <h1>Our pricing is catered to your business requirements</h1>
+      <h2>Pay only for what you need. We offer value for your money.</h2>
+    </center>
+    <div class="price_snippet container">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xs-12 text-center">
+          <h3>Basic</h3>
+          <h2>
+            <!-- ₹ 7699
+                        <span>+tax</span> -->
+          </h2>
+          <li>
+            <b>GST Enabled</b>
+          </li>
+          <li>Customer Manangement</li>
+          <li>Supplier Management</li>
+          <li>Employee Management</li>
+          <li>Sales Management</li>
+          <li>Inventory Management</li>
+          <li>Reports (Basic)</li>
+          <li>Purchase &amp; Reorder</li>
+          <li>Credits</li>
+          <li>Mobile App Free</li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <button onclick="bookPack('basic')">Book Now</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xs-12 text-center standard">
+          <h3>Standard</h3>
+          <h2>
+            <!-- ₹ 9999
+                        <span>+tax</span> -->
+          </h2>
+          <li>
+            <b>GST Enabled</b>
+          </li>
+          <li>Customer Manangement</li>
+          <li>Supplier Management</li>
+          <li>Employee Management</li>
+          <li>Sales Management</li>
+          <li>Inventory Management</li>
+          <li>
+            <b>Reports (Standard)</b>
+          </li>
+          <li>
+            <b>Customer Payments</b>
+          </li>
+          <li>Purchase &amp; Reorder</li>
+          <li>Credits</li>
+          <li>Mobile App Free</li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <li class="invisible"></li>
+          <button onclick="bookPack('standard')">Book Now</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xs-12 text-center">
+          <h3>Premium</h3>
+          <h2>
+            <!-- ₹ 14999
+                        <span>+tax</span> -->
+          </h2>
+          <li>
+            <b>GST Enabled</b>
+          </li>
+          <li>Customer Manangement</li>
+          <li>Supplier Management</li>
+          <li>Employee Management</li>
+          <li>Sales Management</li>
+          <li>Inventory Management</li>
+          <li>
+            <b>Reports (Advanced)</b>
+          </li>
+          <li>Purchase &amp; Reorder</li>
+          <li>Credits</li>
+          <li>
+            <b>Customer Payments</b>
+          </li>
+          <li>
+            <b>Live Shop View</b>
+          </li>
+          <li>
+            <b>Inventory Images</b>
+          </li>
+          <li>
+            <b>Sales Recording</b>
+          </li>
+          <li>
+            <b>Remote Price Change</b>
+          </li>
+          <li>
+            <b>Road runner Support</b>
+          </li>
+          <li>Mobile App Free</li>
+          <button onclick="bookPack('premium')">Book Now</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xs-12 text-center">
+          <h3>ProfitGuru ERP</h3>
+          <h2>
+            <!-- ₹ 11999
+                        <span>+tax</span> -->
+          </h2>
+          <li>
+            <b>GST Enabled</b>
+          </li>
+          <li>
+            <b>Sales Pipeline</b>
+          </li>
+          <li>
+            <b>CRM</b>
+          </li>
+          <li>
+            <b>HRM</b>
+          </li>
+          <li>
+            <b>Reports</b>
+          </li>
+          <li>
+            <b>Items</b>
+          </li>
+          <li>
+            <b>Sales</b>
+          </li>
+          <li>
+            <b>Purchases</b>
+          </li>
+          <li>
+            <b>Customers</b>
+          </li>
+          <li>
+            <b>Suppliers</b>
+          </li>
+          <li>
+            <b>Accounting</b>
+          </li>
+          <li>
+            <b>Cloud Backup</b>
+          </li>
+          <li>
+            <b>Employee Management</b>
+          </li>
+          <li>
+            <b>Lead Management</b>
+          </li>
+          <li>
+            <b>Mobile App Free</b>
+          </li>
+          <li class="invisible"></li>
+          <button onclick="bookPack('erp')">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <center>
+      <h2>Contact us 8284230957 for Pricing &amp; Quotation.</h2>
+    </center>
+  </div>
+
+
+  <!-- second section - Services -->
+  <div id="ourproducts" class="pad-section">
+    <div class="container" id="products-label-psuedo">
+      <div class="row text-center">
+        <div class="col-sm-4 col-xs-12">
+          <div class="animatedParent">
+            <img src="images/gst-seal.svg">
+          </div>
+        </div>
+        <div class="col-sm-8 col-xs-12">
+          <div class="">
+            <h1 class="text-center">Are You GST Ready?</h1>
+            <br>
+            <h2>As per government of India, GST is rolled out on 1st July.</h2>
+            <h2 class="">
+              <span class="greenify">ProfitGuru is made with latest standards of GST</span> as per the guidelines by governmant of India. Book now
+              to avoid the last-hour hussle.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- third section - About -->
+  <div id="services" class="pad-section">
+    <div class="container" id="services-label-psuedo">
+      <h2 class="text-center">Profit Guru - POS Solution</h2>
+      <hr />
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-heart animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>User Friendly</h3>
+          <p> Convenient and easy to understand software to provide best possible user experience ensuring hassle free billing.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-earphone animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Support</h3>
+          <p> 24/7 dedicated technical support over phone and mail</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-fire animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Advertise</h3>
+          <p> Introducing new technology to reach the customers. Integrated and targeted advertising with POS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" class="text-center">
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-compressed animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Compact</h3>
+          <p> Profit Guru is the most compact and customizable POS solution available in market with the best price.</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-cloud animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Back-up and Cloud</h3>
+          <p>Backup and cloud integration syncing your data from time to time that can be accessed and modified from anywhere
+            with high end security encryptions</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-picture animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Terminals </h3>
+          <p> Now, Mobile, Tablet or PC - anything can be your Sales device. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" class="text-center">
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-lock animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Access Levels</h3>
+          <p> Different levels of access based on the designation with enhanced security. inventory manangement.</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-envelope animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Email &amp; SMS</h3>
+          <p> Customize receipts and Email / Message them with your promotions and offers</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="animatedParent">
+            <h2>
+              <span class="glyphicon glyphicon-search animated rotateIn"> </span>
+            </h2>
+          </div>
+          <h3>Analysis</h3>
+          <p> Automated analysis of the stored data to maximize profit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /third section -->
+  <!-- fourth section - products -->
+  <div id="about" class="pad-section">
+    <div class="container" id="ourStory-label-psuedo">
+      <div class="animatedParent">
+        <h2 class="text-center animated fadeInDown">Who are we?</h2>
+        <p class="animated fadeInDown">We have started our journey with one definite goal,
+          <b> to help digitalize businesses with our advanced systems and realize their true potential </b>in this ever growing
+          competitive world.</p>
+        <hr>
+        <div id="team" class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAsnAAAAJDFhNGRjNmQyLWYxNDktNGM0ZC1iOWYxLTAzM2FlZjZjMGQ3Yg.jpg">
+            <label>Akhil Kumar</label>
+            <span>Director &amp; Mentor</span>
+            <p></p>
+            <a href="https://www.linkedin.com/in/akhilk" target="self">
+              <img src="images/LinkedIn.png ">
+            </a>
+            <!--<a href="#" target="self"><img src="images/Facebook.png"></a>-->
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/p/5/005/021/37a/2f72651.jpg">
+            <label>Balakrishna Mogri</label>
+            <span>CEO &amp; Founder</span>
+            <p></p>
+            <a href="https://www.linkedin.com/in/balakrishna-m-a0958a32/" target="self">
+              <img src="images/LinkedIn.png ">
+            </a>
+            <a href="https://www.facebook.com/Bk.Moghri" target="self">
+              <img src="images/Facebook.png">
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAuYAAAAJDVlN2RjYmFhLWNkNGUtNGE2OS05MmM0LWFiN2U4MDgxMDBhYQ.jpg">
+            <label>Sai Chaitanya Eruvaram</label>
+            <span>CTO &amp; Co-Founder</span>
+            <p></p>
+            <a href="https://www.linkedin.com/in/sai-chaitanya-eruvaram-50837432/" target="self">
+              <img src="images/LinkedIn.png ">
+            </a>
+            <a href="https://www.facebook.com/saichaitanya.eruvaram" target="self">
+              <img src="images/Facebook.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="animatedParent">
+        <h2 class="text-center animated fadeInDown">Our Mission </h2>
+        <p class="animated fadeInDown">We have started our journey with one definite goal,
+          <b> to help digitalize businesses with our advanced systems and realize their true potential </b>in this ever growing
+          competitive world.</p>
+        <hr>
+        <p class="animated fadeInDown">After extensive market research, we identified Point-of-Sales as one of the crucial process that needs to be revolutionized.
+          With most of the businesses using accounting tools for Point-of-Sales purposes, its something all of them were
+          collectively missing,
+          <span class="text-big">a bigger picture </span> to capture customers for life time, to attract them for future purchases, to retain them
+          with best rewards. </p>
+      </div>
+      <br/>
+      <div class="animatedParent">
+        <p class="animated fadeInUp">We've built a future ready solution -
+          <b></b>ProfitGuru POS. A product that tells you </p>
+        <ul>
+          <li class="animated fadeInUp">When you are about to run out of stock of important items in your inventory </li>
+          <li class="animated fadeInUp">What your store should have for upcoming weeks for changing customer trends </li>
+          <li class="animated fadeInUp">A system that will report your business sales, even if you're deep inside Himalayas </li>
+          <li class="animated fadeInUp">Which understands how to connect with your customer base </li>
+        </ul>
+      </div>
+      <div>
+        <img class="gear" id="gear1" src="images/gear.png">
+        <img class="gear" id="gear2" src="images/gear.png">
+        <img class="gear" id="gear3" src="images/gear.png">
+      </div>
+    </div>
+  </div>
+  <!-- /fourth section -->
+  <div id="whatsappbot" style="display: inline-block!important;position: fixed;bottom: 15px;left: 15px;z-index: 1500">
+    <a href="https://wa.me/919148325949">
+      <img src="images/Whatsapp.png" style=" width:55px;">
+    </a>
+  </div>
+  <div id="chatbot">
+    <div id="bot-open">
+      <img src="images/chat-green-new.svg" onerror="this.src='images/chat-red.png'">
+    </div>
+    <!--<iframe width="35%" height="400" src="https://console.api.ai/api-client/demo/embedded/f75d7109-0b29-4532-9aa0-692acbd98e62"></iframe>-->
+    <div id="messenger" class="animated">
+
+      <div class="head">
+        <span>ProfitGuru Bot</span>
+        <a class="tel" href="tel:+918284230957">
+          <img src="images/phone.svg">
+        </a>
+        <a class="mail" href="mailto:admin@alienhu.com">
+          <img src="images/mail.svg">
+        </a>
+        <a class="closex">
+          <img src="images/close-red.svg">
+        </a>
+      </div>
+      <div class="box">
+        <div class="bot">
+          <span class="msg">Hi, how can I help you?</span>
+        </div>
+        <!--div class="hidden">Support call 7022507345</div-->
+      </div>
+      <div class="input">
+        <input type="text" id="guest-input" placeholder="Enter your message" required>
+        <img id="msg-send" src="images/send.svg">
+      </div>
+    </div>
+  </div>
+  <!-- /fifth section -->
+  <!-- attach JavaScripts -->
+  <script src="js/jquery.min.js "></script>
+  <script src="js/lightslider.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#lightSlider").lightSlider({
+        mode: "slide",
+        useCSS: true,
+        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+        easing: 'linear', //'for jquery animation',////
+        speed: 400, //ms'
+        auto: true,
+        loop: true,
+        slideEndAnimation: true,
+        pause: 3000,
+        pauseOnHover: true,
+        enableDrag: false,
+        keyPress: true,
+        controls: true,
+        responsive: [{
+          breakpoint: 765,
+          settings: {
+            item: 2,
+            slideMove: 1,
+            slideMargin: 6,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            item: 1,
+            slideMove: 1
+          }
+        }
+        ]
+      });
+    });
+  </script>
+  <script src="js/bootstrap.min.js "></script>
+  <!--<script src="https://maps.google.com/maps/api/js?key=AIzaSyC4ODZyvvmOqhELVaa60sjaCs61VqsCfm0"></script>-->
+  <!--<script type="text/javascript " src="js/jquery.scrollTo.min.js "></script>
+    <script type="text/javascript " src="js/jquery.localScroll.min.js "></script>-->
+  <script type="text/javascript " src="js/css3-animate-it.js"></script>
+  <!--<script type="text/javascript " src="js/unslider.min.js"></script>-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+  <script src="js/main.js "></script>
+  <script src="alertifyjs/alertify.min.js"></script>
+  <!-- google map -->
+  <div id="map"></div>
+  <script>
+    function initMap() {
+
+      var gmap = document.getElementById('map');
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {
+          lat: 15.2663611,
+          lng: 74.5468545
+        },
+        zoom: 12,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        navigationControl: true,
+        mapTypeControl: false,
+        scrollwheel: false,
+        disableDoubleClickZoom: true
+      });
+      map.setTilt(45);
+
+      // initialize the map object
+
+      // add Marker
+      var marker1 = new google.maps.Marker({
+        position: {
+          lat: 15.2663611,
+          lng: 74.5468545
+        },
+        map: map
+      });
+
+      // add listener for a click on the pin
+      google.maps.event.addListener(marker1, 'click', function () {
+        infowindow.open(map, marker1);
+      });
+
+      // add information window
+      var infowindow = new google.maps.InfoWindow({
+        content: '<div class="info"><strong>AlienHu Private Limited, India</strong><br>Call 7022507345.</div>'
+      });
+
+
+
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4ODZyvvmOqhELVaa60sjaCs61VqsCfm0&callback=initMap"
+    type="text/javascript"></script>
+  <!-- /google map -->
+  <!-- footer -->
+  <footer class="footer ">
+    <!--   <hr /> -->
+    <div class="container ">
+      <div class="row ">
+        <div class="col-sm-4 ">
+          <h5>Reach us @</h5>
+          <p class="footer-font text-left ">
+            <span class="glyphicon glyphicon-phone "></span>
+            <b>:+91-7022507345</b>
+            <br/>
+            <b>
+              <i class="glyphicon glyphicon-phone-alt "></i>: 08284-230272</b>
+            <br/>
+            <b>
+              <i class="glyphicon glyphicon-envelope mail "></i>: sales@alienhu.com</b>
+          </p>
+          <h5>Support</h5>
+          <p>
+            <img class="footer_image " src="images/Whatsapp.png" width="32" /> +91-7676555938 </p>
+        </div>
+        <div class="col-sm-4 ">
+          <h5>Links</h5>
+          <a href="index.html" class="footer-font white">Home</a>
+          <br>
+          <a href="http://alienhu.com:2020/blog/" class="footer-font white">Blog</a>
+          <br>
+          <a href="contact.html" class="footer-font white">Contact</a>
+          <br>
+          <!-- <a href="career"  class="footer-font white">Career</a> <br> -->
+          <a href="hardware.html" class="footer-font white">Hardware</a>
+          <br>
+        </div>
+        <div class="col-sm-4 ">
+          <h5>Follow Us </h5>
+          <a href="https://www.facebook.com/profitgurupos ">
+            <img class="footer_image " src="images/Facebook.png " /> </a>
+          <a href="https://twitter.com/Alienhu_PvtLtd ">
+            <img class="footer_image " src="images/Twitter.png " /> </a>
+          <a href="https://www.linkedin.com/company/alienhu-private-limited?trk=ppro_cprof ">
+            <img class="footer_image " src="images/LinkedIn.png " /> </a>
+          <a>
+            <img class="footer_image " src="images/GooglePlus.png " /> </a>
+          <a href="https://www.youtube.com/watch?v=-ABowGb4Lm8&feature=youtu.be ">
+            <img class="footer_image " src="images/YouTube.png " /> </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center footer-extra-links" style="font-size:12px">
+      <hr>
+      <span>
+        <i class="glyphicon glyphicon-asterisk fnt12 white">
+        </i>
+        <a target="new" href="/termsAndConditions" class="white">Terms &amp; Conditions</a>
+      </span>
+      <span>
+        <i class="glyphicon glyphicon-eye-close fnt12 white">
+        </i>
+        <a target="new" href="privacy" class="white">Privacy Policies</a>
+      </span>
+      <span>
+        <i class="glyphicon glyphicon-usd fnt12 white">
+        </i>
+        <a target="new" href="eula" class="white">AlienHu Eula</a>
+      </span>
+    </div>
+
+  </footer>
+  <!-- /footer -->
+  <div id="offer">
+    <img src="images/sale.png">
+    <i class="glyphicon glyphicon-remove"></i>
+    <h3>FREE POS
+      <br> for Computer Shops</h3>
+    <button onclick="bookPack('computer')">Book now</button>
+  </div>
+  <div id="lft-fxd">
+    <a class="yt" href="https://www.youtube.com/watch?v=-ABowGb4Lm8" target="self">
+      <img src="images/YouTube.png">
+    </a>
+    <a class="fb" href="https://www.facebook.com/profitgurupos" target="self">
+      <img src="images/Facebook.png">
+    </a>
+    <a class="ln" href="https://www.linkedin.com/company/alienhu-private-limited" target="self">
+      <img src="images/LinkedIn.png">
+    </a>
+  </div>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101688117-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>

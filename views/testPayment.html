@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>test payment</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <div class="col-lg-6">
+            <form>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" class="form-control" id="fname" />
+                </div>
+                <div class="form-group">
+                    <label>E-mail ID:</label>
+                    <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="form-group">
+                    <label>Phone No.:</label>
+                    <input type="text" class="form-control" id="phone" />
+                </div>
+                <div class="form-group">
+                    <input type="button" id="submitBtn" value="Submit" />
+                </div>
+            </form>
+    </div>
+    <script>
+        var fname = document.getElementById("fname");
+        var email = document.getElementById("email");
+        var phno = document.getElementById("phone");
+
+        var options = {
+            "key": "rzp_test_M0Fx5tt4T9kHV4",
+            "amount": "1000", // 2000 paise = INR 20
+            "name": "Alienhu",
+            "description": "ProfitGuru",
+            "image": "",
+            "handler": function (response){
+                window.location= "success.html?rpayPID=" + response.razorpay_payment_id;
+            },
+            "prefill": {
+                "name": fname,
+                "email": email
+            },
+            "notes": {
+                "address": "Hello World"
+            },
+            "theme": {
+                "color": "#F37254"
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        var submitBtn = document.getElementById("submitBtn");
+        submitBtn.onclick = function(e){
+            rzp1.open();
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

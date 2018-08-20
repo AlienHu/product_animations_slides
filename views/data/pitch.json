@@ -1,0 +1,191 @@
+{
+  "problem": {
+    "mainImage": "images/home/main.png",
+    "subImages": [
+      {
+        "target": "payment",
+        "imageURL": "images/home/payment.png",
+        "fianlXPosition": "-0.35",
+        "fianlYPosition": "50",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "gst",
+        "imageURL": "images/home/gst.png",
+        "fianlXPosition": "-0.20",
+        "fianlYPosition": "130",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "crm",
+        "imageURL": "images/home/crm.png",
+        "fianlXPosition": "-0.35",
+        "fianlYPosition": "250",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "sale",
+        "imageURL": "images/home/sale.png",
+        "fianlXPosition": "-0.20",
+        "fianlYPosition": "360",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "brand",
+        "imageURL": "images/home/brand.png",
+        "fianlXPosition": "-0.1",
+        "fianlYPosition": "480",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "ecom",
+        "imageURL": "images/home/ecom.png",
+        "fianlXPosition": "0.1",
+        "fianlYPosition": "480",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "account",
+        "imageURL": "images/home/account.png",
+        "fianlXPosition": "0.3",
+        "fianlYPosition": "360",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "market",
+        "imageURL": "images/home/market.png",
+        "fianlXPosition": "0.45",
+        "fianlYPosition": "250",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "online",
+        "imageURL": "images/home/online.png",
+        "fianlXPosition": "0.3",
+        "fianlYPosition": "130",
+        "initialScale": "30",
+        "finalScale": "12"
+      },
+      {
+        "target": "inventory",
+        "imageURL": "images/home/inventory.png",
+        "fianlXPosition": "0.45",
+        "fianlYPosition": "50",
+        "initialScale": "30",
+        "finalScale": "8"
+      }
+    ]
+  },
+  "problem2": {
+    "mainImage": "images/home/main2.png",
+    "subImages": [
+      {
+        "target": "computer",
+        "text": "computer illiterate",
+        "imageURL": "images/home/computer.png",
+        "fianlXPosition": "-0.3",
+        "fianlYPosition": "20",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "initialCost",
+        "text": "high initial setup cost",
+        "imageURL": "images/home/initialCost.png",
+        "fianlXPosition": "-0.15",
+        "fianlYPosition": "200",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "investment",
+        "text": "return on investment",
+        "imageURL": "images/home/investment.png",
+        "fianlXPosition": "0.2",
+        "fianlYPosition": "200",
+        "initialScale": "20",
+        "finalScale": "9"
+      },
+      {
+        "target": "skills",
+        "text": "computer skiller labour & their cost",
+        "imageURL": "images/home/skills.png",
+        "fianlXPosition": "0.3",
+        "fianlYPosition": "20",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "support",
+        "text": "support & service",
+        "imageURL": "images/home/support.png",
+        "fianlXPosition": "0.35",
+        "fianlYPosition": "160",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "intelligence",
+        "text": "business intelligence",
+        "imageURL": "images/home/intelligence.png",
+        "fianlXPosition": "0.35",
+        "fianlYPosition": "320",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "language",
+        "text": "native language support",
+        "imageURL": "images/home/language.png",
+        "fianlXPosition": "0.35",
+        "fianlYPosition": "500",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "platform",
+        "text": "cross platform",
+        "imageURL": "images/home/platform.png",
+        "fianlXPosition": "0.0.5",
+        "fianlYPosition": "500",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "security",
+        "text": "security",
+        "imageURL": "images/home/security.png",
+        "fianlXPosition": "-0.35",
+        "fianlYPosition": "500",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "onlineOffline",
+        "text": "online/offline",
+        "imageURL": "images/home/onlineOffline.png",
+        "fianlXPosition": "-0.35",
+        "fianlYPosition": "320",
+        "initialScale": "25",
+        "finalScale": "9"
+      },
+      {
+        "target": "hardware",
+        "text": "hardware",
+        "imageURL": "images/home/hardware.png",
+        "fianlXPosition": "-0.35",
+        "fianlYPosition": "160",
+        "initialScale": "25",
+        "finalScale": "9"
+      }
+    ]
+  }
+}

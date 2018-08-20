@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="AlienHu Private Limited" />
+    <meta name="google-site-verification" content="2C_0CBpEUvAkk5UUV36kM-KFXx7VDj4kYvARxkIBH1s" />
+    <meta name="google-site-verification" content="SZSKGgh5bG9RTo4H_YnVqqyfgJeKgapVcTb5bzL3xgY" />
+    <meta name="description" content="ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; Easy-to-use. Book today only.">
+    <meta name="keywords" content="ProfitGuru, POS, ERP, GST, retail POS, Restuarant POS, Saloon POS, CRM POS, Point of sale, AlienHu, Business Solutions, Business Software, Simple solution for POS, User-friendly POS">
+    <meta property="og:title" content="ProfitGuru POS &amp; ERP Solutions for your Business">
+    <meta property="og:image" content="/images/favicon.png">
+    <meta property="og:description" content="POS was never so easy to get started with. ProfitGuru POS &amp; ERP Solutions to Simplify your Retail Business. GST Enabled &amp; User-friendly. Book today only">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+    <title>AlienHu ProfitGuru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- attach CSS styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/websiteStyle.css" rel="stylesheet" />
+    <link href="css/messenger.css" rel="stylesheet" />
+    <!-- include the style -->
+    <link rel="stylesheet" href="alertifyjs/css/alertify.css" />
+    <!-- include a theme -->
+    <link rel="stylesheet" href="alertifyjs/css/themes/default.css" />
+    <!--<link href="css/unlsider.css" rel="stylesheet" />
+    <link href="css/unlsider-dots.css" rel="stylesheet" />-->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Kaushan+Script|Open+Sans|Quicksand|Roboto" rel="stylesheet">
+   
+</head>
+
+<body id="body">
+    <!-- 08 July, 17 -->
+    <div id="loader">
+        <center></center>
+    </div>
+    <style>
+        #loader {
+            display: block;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            z-index: 9999;
+            background-color: #ECF0F1;
+        }
+
+        #loader center {
+            margin: auto;
+            position: relative;
+            margin-top: 40vh;
+            vertical-align: top;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #002451;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+            z-index: 9999;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .white {
+            color: #fff
+        }
+
+        .main-image {
+            background-color: #fff;
+            z-index: 2;
+            width: 1%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 35%;
+        }
+
+        .main-image2 {
+            background-color: #fff;
+            z-index: 0;
+            width: 1%;
+            display: none;
+            position: absolute;
+            top: 100px;
+            left: 35%;
+        }
+
+        .first-image {
+            z-index: 1;
+            width: 1%;
+            display: block;
+            position: absolute;
+            top: 5%;
+            left: 45%;
+        }
+
+
+    
+
+       ::-webkit-scrollbar {
+                              display: none;
+                          }
+    </style>
+    <!-- html {
+        overflow:hidden;
+        } -->
+    <!-- attach JavaScripts -->
+    <!--  BODY PAGE CONTENT -->
+    <!-- navigation panel -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand-name" href="/">
+                    <img class="logo" src="images/test2.svg">
+                    <!--span class="logo">&nbsp;<b>A</b>lien<b>H</b>u</span-->
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#slider" class="header-menu">Home</a></li>-->
+                    <li>
+                        <a href="/#slider" class="header-menu">Products</a>
+                    </li>
+                    <li>
+                        <a href="website.html" class="header-menu">Website Showcase</a>
+                    </li>
+                    <li>
+                        <a href="/#pricing" class="header-menu">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="/#services" class="header-menu">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header-menu">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://alienhu.com:2020/blog/" class="header-menu">Blog</a>
+                    </li>
+                    <!--<li class="try-free-nav"><a href="/trilPG">Try ProfitGuruPos fo Free</a></li>-->
+                    <li class="try-free-nav header-menu">
+                        <a onclick="demoPopUpHandler()">Try Demo</a>
+                    </li>
+                    <li class="download header-menu">
+                        <a onclick="showDownload()">Download</a>
+                    </li>
+                    <li>
+                        <a href="hardware.html" class="header-menu">Hardware</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <br>
+    <br>
+    <!-- first section - Home -->
+    <div class="container">
+        <div id="problem1" width="100%" style="display:block; position: relative; height: 100%">
+        </div>
+        <div id="problem2" width="100%" style="display:none; position: relative; height: 100%">
+        </div>
+        <div id="solution" width="100%" style="display:none; position: relative; height: 100%">
+        </div>
+        <div id="introducing" width="100%" style="display:none; position: relative; height: 100%">
+        </div>
+        <div id="ProfitGuru" width="100%" style="display:none; position: relative; height: 100%">
+        </div>
+        <!-- /fourth section -->
+        <div id="whatsappbot" style="display: inline-block!important;position: fixed;bottom: 15px;left: 15px;z-index: 1500; background-color: #fff; padding-right: 10px;">
+            <img src="images/Whatsapp.png" style=" width:55px;">
+            <a href="https://wa.me/919148325949">+91 91483 25949</a>
+        </div>
+        <div id="chatbot">
+            <div id="bot-open">
+                <img src="images/chat-green-new.svg" onerror="this.src='images/chat-red.png'">
+            </div>
+            <!--<iframe width="35%" height="400" src="https://console.api.ai/api-client/demo/embedded/f75d7109-0b29-4532-9aa0-692acbd98e62"></iframe>-->
+            <div id="messenger" class="animated">
+
+                <div class="head">
+                    <span>ProfitGuru Bot</span>
+                    <a class="tel" href="tel:+918284230957">
+                        <img src="images/phone.svg">
+                    </a>
+                    <a class="mail" href="mailto:admin@alienhu.com">
+                        <img src="images/mail.svg">
+                    </a>
+                    <a class="closex">
+                        <img src="images/close-red.svg">
+                    </a>
+                </div>
+                <div class="box">
+                    <div class="bot">
+                        <span class="msg">Hi, how can I help you?</span>
+                    </div>
+                    <!--div class="hidden">Support call 7022507345</div-->
+                </div>
+                <div class="input">
+                    <input type="text" id="guest-input" placeholder="Enter your message" required>
+                    <img id="msg-send" src="images/send.svg">
+                </div>
+            </div>
+        </div>
+        <!-- /fifth section -->
+        <!-- attach JavaScripts -->
+        <script src="js/jquery.min.js "></script>
+        <script src="js/bootstrap.min.js "></script>
+        <!--<script src="https://maps.google.com/maps/api/js?key=AIzaSyC4ODZyvvmOqhELVaa60sjaCs61VqsCfm0"></script>-->
+        <!--<script type="text/javascript " src="js/jquery.scrollTo.min.js "></script>
+    <script type="text/javascript " src="js/jquery.localScroll.min.js "></script>-->
+        <script type="text/javascript " src="js/css3-animate-it.js"></script>
+        <!--<script type="text/javascript " src="js/unslider.min.js"></script>-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+        <script src="js/main.js "></script>
+        <script src="alertifyjs/alertify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <!-- footer -->
+        <!-- <footer class="footer ">
+            <!--   <hr /> --
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-4 ">
+                        <h5>Reach us @</h5>
+                        <p class="footer-font text-left ">
+                            <span class="glyphicon glyphicon-phone "></span>
+                            <b>:+91-7022507345</b>
+                            <br/>
+                            <b>
+                                <i class="glyphicon glyphicon-phone-alt "></i>: 08284-230272</b>
+                            <br/>
+                            <b>
+                                <i class="glyphicon glyphicon-envelope mail "></i>: sales@alienhu.com</b>
+                        </p>
+                        <h5>Support</h5>
+                        <p>
+                            <img class="footer_image " src="images/Whatsapp.png" width="32" /> +91-7676555938 </p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h5>Links</h5>
+                        <a href="index.html" class="footer-font white">Home</a>
+                        <br>
+                        <a href="http://alienhu.com:2020/blog/" class="footer-font white">Blog</a>
+                        <br>
+                        <a href="contact.html" class="footer-font white">Contact</a>
+                        <br>
+                        <!-- <a href="career"  class="footer-font white">Career</a> <br> --
+                        <a href="hardware.html" class="footer-font white">Hardware</a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h5>Follow Us </h5>
+                        <a href="https://www.facebook.com/profitgurupos ">
+                            <img class="footer_image " src="images/Facebook.png " /> </a>
+                        <a href="https://twitter.com/Alienhu_PvtLtd ">
+                            <img class="footer_image " src="images/Twitter.png " /> </a>
+                        <a href="https://www.linkedin.com/company/alienhu-private-limited?trk=ppro_cprof ">
+                            <img class="footer_image " src="images/LinkedIn.png " /> </a>
+                        <a>
+                            <img class="footer_image " src="images/GooglePlus.png " /> </a>
+                        <a href="https://www.youtube.com/watch?v=-ABowGb4Lm8&feature=youtu.be ">
+                            <img class="footer_image " src="images/YouTube.png " /> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center footer-extra-links" style="font-size:12px">
+                <hr>
+                <span>
+                    <i class="glyphicon glyphicon-asterisk fnt12 white">
+                    </i>
+                    <a target="new" href="/termsAndConditions" class="white">Terms &amp; Conditions</a>
+                </span>
+                <span>
+                    <i class="glyphicon glyphicon-eye-close fnt12 white">
+                    </i>
+                    <a target="new" href="privacy" class="white">Privacy Policies</a>
+                </span>
+                <span>
+                    <i class="glyphicon glyphicon-usd fnt12 white">
+                    </i>
+                    <a target="new" href="refundPolicy" class="white">Refund Policy</a>
+                </span>
+            </div>
+
+        </footer> -->
+        <!-- /footer -->
+        <div id="offer">
+            <img src="images/sale.png">
+            <i class="glyphicon glyphicon-remove"></i>
+            <h3>FREE POS
+                <br> for Computer Shops</h3>
+            <button onclick="bookPack('computer')">Book now</button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js" integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4="
+            crossorigin="anonymous"></script>
+        <script>
+            var problem1 = anime.timeline({
+                easing: 'easeOutExpo'
+            });
+            var transmission = 0;
+                      
+            $('#problem1').append('<h1 id="tensed" class="text-center text-capitalize">are you tensed business owner?</h1>');
+            problem1.add({
+                targets: '#tensed',
+                translateX: 150,
+                translateY: 160,
+                scale: {
+                    value: 1
+                },
+                offset: transmission,
+            });
+            transmission += 500;
+            problem1.add({
+                targets: '#tensed',
+                translateX: 10,
+                translateY: 150,
+                scale: {
+                    value: 3
+                },
+                offset: transmission,
+            });
+            transmission += 1500;
+            problem1.add({
+                targets: '#tensed',
+                translateX: 10,
+                scale: {
+                    value: 1
+                },
+                offset: transmission,
+            });
+            transmission += 1500;
+            $.getJSON("./data/pitch.json", function (data) {
+                $('#problem1').append('<div class="main-image"><img src="' + data.problem.mainImage + '" class="img-responsive"></div>');
+                problem1.add({
+                    targets: '.main-image',
+                    translateX: 0,
+                    translateY: 100,
+                    offset: transmission
+                });
+                transmission += 1;
+                problem1.add({
+                    targets: '.main-image',
+                    zIndex: 0,
+                    offset: transmission
+                });
+                transmission += 500;
+                problem1.add({
+                    targets: '.main-image',
+                    translateX: 150,
+                    translateY: 200,
+                    scale: {
+                        value: 30
+                    },
+                    offset: transmission,
+                });
+                transmission += 1000;
+                $('#problem1').append('<h1 id="problem" class="text-center text-capitalize" style="display:none;">are these your problems?</h1>');
+                problem1.add({
+                    targets: '#problem',
+                    complete: function (el) {
+                        $('#problem').show();
+                    },
+                    offset: transmission,
+                });
+                transmission += 500;
+                problem1.add({
+                    targets: '#problem',
+                    translateX: 10,
+                    scale: {
+                        value: 3
+                    },
+                    offset: transmission,
+                });
+                transmission += 2000;
+                problem1.add({
+                    targets: '#problem',
+                    scale: 1,
+                    offset: transmission,
+                    complete: function (el) {
+                        $('#problem').hide();
+                    }
+                });
+                // problem1
+                $.each(data.problem.subImages, function (i, item) {
+                    $('#problem1').append('<div id="' + item.target + '" class="first-image"><img src="' + item.imageURL + '" class="img-responsive"></div>');
+                    problem1.add({
+                        targets: '#' + item.target,
+                        translateX: 0,
+                        translateY: 400,
+                        offset: transmission
+                    });
+                    transmission += 1;
+                    problem1.add({
+                        targets: '#' + item.target,
+                        zIndex: 6,
+                        offset: transmission,
+                       
+                        
+                    });
+                    transmission += 300;
+                    problem1.add({
+                        targets: '#' + item.target,
+                        translateX: 0,
+                        translateY: 100,
+                        
+                        scale: {
+                            value: parseInt(item.initialScale)
+                        },
+                        offset: transmission,
+                        
+                    });
+                    transmission += 1000;
+                    problem1.add({
+                        scale: 1,
+                        offset: transmission,
+                    });
+                    transmission += 500;
+                    problem1.add({
+                        targets: '#' + item.target,
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        scale: {
+                            value: parseInt(item.finalScale)
+                        },
+                        offset: transmission
+                    });
+                });
+                transmission += 2000;
+                problem1.add({
+                    targets: '#problem1',
+                    translateX: -2000,
+                    complete: function (el) {
+                        $('#problem1').fadeOut(10, "linear");
+                        $('#problem2').show();
+                    },
+                    offset: transmission
+                })
+                transmission += 1000;
+                var problem2 = anime.timeline({
+                    easing: 'easeOutExpo'
+                });
+                $('#problem2').append('<div id="digital" style="display:none"><h1 class="text-center">Okay!!!<br>So You Decided To Go Digital!!!</h1></div>');
+                $('#problem2').append('<div class="main-image2"><img src="' + data.problem2.mainImage + '" class="img-responsive"></div>');
+                transmission -= 1000;
+                problem2.add({
+                    targets: '#digital',
+                    translateX: 2000,
+                    complete: function (el) {
+                        $('#digital').show();
+                        $('.main-image2').show();
+                    },
+                    offset: transmission
+                });
+                problem2.add({
+                    targets: '.main-image2',
+                    translateX: 2000,
+                    translateY: 150,
+                    scale: {
+                        value: 25
+                    },
+                    offset: transmission,
+                });
+                transmission += 1000
+                problem2.add({
+                    targets: '#digital',
+                    scale: 1,
+                    translateX: 0,
+                    complete: function (el) {
+                    },
+                    offset: transmission,
+                });
+                transmission += 500;
+                $('#problem2').append('<div id="but" style="display:none;"><h1 class="text-center">But ???</h1></div>');
+                problem2.add({
+                    targets: '#but',
+                    complete: function (el) {
+                        $("#but").show();
+                    },
+                    offset: transmission,
+                });
+                transmission += 500;
+                problem2.add({
+                    targets: '#but',
+                    scale: 3,
+                    offset: transmission,
+                });
+                transmission += 500;
+                problem2.add({
+                    targets: '#but',
+                    scale: 1,
+                    offset: transmission,
+                });
+                transmission += 500;
+                problem2.add({
+                    targets: '#but',
+                    translateY: -20,
+                    scale: {
+                        value: 1
+                    },
+                    offset: transmission,
+                });
+                transmission += 500;
+                problem2.add({
+                    targets: '.main-image2',
+                    translateX: 200,
+                    translateY: 150,
+                    scale: {
+                        value: 25
+                    },
+                    offset: transmission,
+                });
+                transmission += 500;
+                // problem2
+                $.each(data.problem2.subImages, function (i, item) {
+                    $('#problem2').append('<div id="' + item.target + '" class="first-image text-center text-uppercase"><img src="' + item.imageURL + '" class="img-responsive" style="width:128; height:128"></div>');
+                    problem2.add({
+                        targets: '#' + item.target,
+                        translateX: 0,
+                        translateY: 100,
+                        offset: transmission
+                    });
+                    transmission += 1;
+                    problem2.add({
+                        targets: '#' + item.target,
+                        zIndex: 1600,
+                        offset: transmission
+                    });
+                    transmission += 500;
+                    problem2.add({
+                        targets: '#' + item.target,
+                        translateX: 0,
+                        translateY: 300,
+                        scale: {
+                            value: parseInt(item.initialScale)
+                        },
+                        offset: transmission,
+                    });
+                    transmission += 1500;
+                    problem2.add({
+                        scale: 5,
+                        offset: transmission,
+                    });
+                    transmission += 500;
+                    problem2.add({
+                        targets: '#' + item.target,
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        scale: {
+                            value: parseInt(item.finalScale)
+                        },
+                        offset: transmission
+                    });
+                    transmission -= 200;
+                });
+                problem2.add({
+                    translateX: -2000,
+                    complete: function (el) {
+                        $('#problem2').fadeOut(800, "linear");
+                        $('#solution').show();
+                    },
+                    offset: transmission
+                })
+                var solution = anime.timeline({
+                    easing: 'easeOutExpo'
+                });
+                transmission += 1000;
+                $('#solution').append('<div id="sol"><h1 class="text-center">Solution?</h1></div>');
+                solution.add({
+                    targets: '#sol',
+                    scale: {
+                        value: 2
+                    },
+                    translateY: -10,
+                    offset: transmission,
+                });
+                transmission += 1000;
+                $('#solution').append('<div id="tally" style="display:none"><h1 class="text-center">Tally wally <br>is For Accountants!</h1></div>');
+                solution.add({
+                    targets: '#tally',
+                    scale: {
+                        value: 1.5
+                    },
+                    begin: function (el) {
+                        $('#tally').show();
+                    },
+                    translateY: -10,
+                    offset: transmission,
+                });
+                transmission += 2500;
+                $('#solution').append('<div id="boss" style="display:none"><h1 class="text-center">You Need a <br> Bussiness Operating Software System! (BOSS)</h1></div>');
+                solution.add({
+                    targets: '#boss',
+                    scale: {
+                        value: 1.5
+                    },
+                    begin: function (el) {
+                        $('#boss').show();
+                    },
+                    translateY: 20,
+                    offset: transmission,
+                });
+                transmission += 1500;
+                $('#solution').append('<div id="yup" style="display:none"><h1 class="text-center" style="color:orangered">Yup That\'s BOSS </h1></div>');
+                solution.add({
+                    targets: '#yup',
+                    scale: {
+                        value: 1.5
+                    },
+                    begin: function (el) {
+                        $('#yup').show();
+                    },
+                    translateY: 50,
+                    offset: transmission,
+                });
+                transmission += 1000;
+                // transmission = 2000;
+                solution.add({
+                    complete: function (el) {
+                        // $('#problem1').fadeOut(500, "linear");
+                        $('#solution').fadeOut(500, "linear");
+                        $('#introducing').show();
+                    },
+                    offset: transmission
+                })
+                var intro = anime.timeline({
+                    easing: 'easeOutExpo'
+                });
+                transmission += 1000;
+                $('#introducing').append('<div id="intro"><h1 class="text-center">Introducing</h1></div>');
+                intro.add({
+                    targets: '#intro',
+                    scale: {
+                        value: 2
+                    },
+                    translateY: -30,
+                    offset: transmission,
+                });
+                transmission += 10;
+                $('#introducing').append('<div id="ufo" style="display:none; width:1%"><img src="images/home/ufo.png"></div>');
+                intro.add({
+                    targets: '#ufo',
+                    scale: {
+                        value: 2
+                    },
+                    translateX: -450,
+                    translateY: 30,
+                    offset: transmission,
+                });
+                transmission += 500;
+                intro.add({
+                    targets: '#ufo',
+                    scale: {
+                        value: 1
+                    },
+                    begin: function (el) {
+                        $("#ufo").show();
+                    },
+                    translateX: 500,
+                    translateY: -40,
+                    offset: transmission,
+                });
+                transmission += 500;
+                $('#introducing').append('<div id="alien" style="display:none; width:1%"><img src="images/home/alien.png"></div>');
+                intro.add({
+                    targets: '#alien',
+                    scale: {
+                        value: .3
+                    },
+                    translateX: 1600,
+                    translateY: -1000,
+                    offset: transmission,
+                });
+                transmission += 1000;
+                intro.add({
+                    targets: '#alien',
+                    scale: {
+                        value: .3
+                    },
+                    begin: function (el) {
+                        $("#alien").show();
+                    },
+                    translateX: 1600,
+                    translateY: -800,
+                    offset: transmission,
+                });
+                transmission += 500;
+                $('#introducing').append('<div id="shoot" style="display:none; width:1%"><img src="images/home/shoot.png"></div>');
+                intro.add({
+                    targets: '#shoot',
+                    scale: {
+                        value: .8
+                    },
+                    complete: function (el) {
+                        $('#alien').hide();
+                        $("#shoot").show();
+                    },
+                    translateX: 700,
+                    translateY: -200,
+                    offset: transmission,
+                });
+                transmission += 1000;
+                // transmission = 2000;
+                intro.add({
+                    complete: function (el) {
+                        // $('#problem1').fadeOut(500, "linear");
+                        $('#introducing').fadeOut(500, "linear");
+                        $('#ProfitGuru').show();
+                    },
+                    offset: transmission
+                })
+                var pg = anime.timeline({
+                    easing: 'easeOutExpo'
+                });
+                $('#ProfitGuru').append('<div id="your"><h1 class="text-center">Your Problems!</h1></div>');
+                pg.add({
+                    targets: '#your',
+                    scale: 1,
+                    translateY: 20,
+                    offset: transmission
+                })
+                $('#ProfitGuru').append('<div id="profit"><img src="images/home/profitguru.png"></div>');
+                pg.add({
+                    targets: '#profit',
+                    scale: .5,
+                    translateY: -250,
+                    offset: transmission
+                })
+                var tmp = 20;
+                $.each(data.problem.subImages, function (i, item) {
+                    $('#ProfitGuru').append('<div id="p' + item.target + '" class="first-image" style="display:none"><img src="' + item.imageURL + '" class="img-responsive"></div>');
+                    pg.add({
+                        targets: '#p' + item.target,
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        zIndex: 6,
+                        scale: {
+                            value: parseInt(item.finalScale)
+                        },
+                        offset: transmission
+                    });
+                    transmission += 500;
+                });
+                $.each(data.problem.subImages, function (i, item) {
+                    pg.add({
+                        targets: '#p' + item.target,
+                        begin: function (el) {
+                            $('#p' + item.target).show();
+                        },
+                        offset: transmission
+                    })
+                });
+                transmission += 400;
+                $.each(data.problem.subImages, function (i, item) {
+                    pg.add({
+                        targets: '#p' + item.target,
+                        begin: function (el) {
+                            $('#p' + item.target).show();
+                        },
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        zIndex: 6,
+
+                        scale: {
+                            value: parseInt(item.finalScale) + 15
+                        },
+                        offset: transmission
+                    });
+                    transmission += 300;
+                    pg.add({
+                        targets: '#p' + item.target,
+                        translateX: 20,
+                        translateY: 180,
+                        scale: 0,
+                        offset: transmission
+                    })
+                    transmission += 300 - tmp;
+                    tmp += 30;
+                });
+                $.each(data.problem2.subImages, function (i, item) {
+                    $('#ProfitGuru').append('<div id="p' + item.target + '" class="first-image" style="display:none"><img src="' + item.imageURL + '" class="img-responsive"></div>');
+                    pg.add({
+                        targets: '#p' + item.target,
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        zIndex: 6,
+                        scale: {
+                            value: parseInt(item.finalScale)
+                        },
+                        offset: transmission,
+                        easing: [0,0,0,0]
+                    });
+                });
+                $.each(data.problem2.subImages, function (i, item) {
+                    pg.add({
+                        targets: '#p' + item.target,
+                        begin: function (el) {
+                            $('#p' + item.target).show();
+                        },
+                        offset: transmission
+                    })
+                });
+                transmission += 1000;
+                tmp = 0;
+                $.each(data.problem2.subImages, function (i, item) {
+                    $('#ProfitGuru').append('<div id="p' + item.target + '" class="first-image" style="display:none"><img src="' + item.imageURL + '" class="img-responsive"></div>');
+                    pg.add({
+                        targets: '#p' + item.target,
+                        translateX: function (el) {
+                            var width = $(window).width();
+                            return width * parseFloat(item.fianlXPosition);
+                        },
+                        translateY: parseInt(item.fianlYPosition),
+                        zIndex: 6,
+                        scale: {
+                            value: parseInt(item.finalScale) + 15
+                        },
+                        offset: transmission,
+                    });
+                    transmission += 300 - tmp;
+                    tmp += 20;
+                    pg.add({
+                        targets: '#p' + item.target,
+                        translateX: 20,
+                        translateY: 180,
+                        scale: 0,
+                        offset: transmission
+                    })
+                    transmission += 300;
+                });
+
+                pg.add({
+                    targets: '#your',
+                    begin: function (el) {
+                        $('#your').hide();
+                        $('#profit').hide();
+                    },
+                    offset: transmission
+                })
+                transmission += 600;
+
+                $('#ProfitGuru').prepend('<div id="stop" style="display:none"><h1 class="text-center">One Stop Solution <br> For All Your Problems</h1></div>');
+                pg.add({
+                    targets: '#stop',
+                    begin: function (el) {
+                        $('#stop').show();
+                        $('#profit').show();
+
+                    },
+                    scale: 1,
+                    translateY: -20,
+                    offset: transmission
+                })
+                pg.add({
+                    targets: '#profit',
+                    scale: .7,
+                    translateY: -250,
+                    offset: transmission
+                })
+                transmission += 500;
+                pg.add({
+                    targets: '#profit',
+                    scale: 0.6,
+                    translateY: -250,
+                    offset: transmission
+                })
+            });
+        </script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-101688117-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+</body>
+
+</html>

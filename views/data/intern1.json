@@ -1,0 +1,166 @@
+{
+    "desktop":{
+           
+     "intern":{
+
+        "animation":[{
+
+            "XPosition": null,
+            "YPosition": null,
+            "scale": null,
+            "display": false,
+            "duration": 1,
+            "offset": 0
+            
+            },
+            {
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 1,
+                "offset": 2
+            }
+
+        ],
+        "messages":[{
+            "targetName": "alienhu",
+            "text": "AlienHU Pvt Ltd..",
+            "animation":[{
+
+                        "XPosition": "0%",
+                        "YPosition": "-20%",
+                        "scale": 0,
+                        "display": true,
+                        "duration": 100,
+                        "offset": 0
+                },
+                {
+                    
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 4,
+                    "display": true,
+                    "duration": 3000,
+                    "offset": 100,
+                    "zIndex": 100
+              
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 4000,
+                    "zIndex": 0
+                }
+                
+            ]
+        },
+        {
+            "targetName":"presents",
+            "text":"Present's",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 3100,
+                "zIndex": 100
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "40%",
+                    "scale": 2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 3100,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration":0,
+                    "offset": 4000,
+                    "zIndex": 100
+                }
+                
+            ]
+        }
+       
+
+        ],
+        "images":[{
+
+            "desc": "remake",
+            "targetName": "remake",
+            "imageURL": "images/home/intern/images/remakef.png",
+            "animation":[{
+
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": true,
+                    "duration":0,
+                    "offset": 4300,
+                    "zIndex": null
+                },
+                {
+                    "XPosition": "-10%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": true,
+                    "duration":2000,
+                    "offset": 4600,
+                    "zIndex": null
+                }
+                
+             ]
+
+           },
+           {
+               "desc":"digital india",
+               "targetName":"digialindia",
+               "imageURL":"images/home/intern/images/digitalindia.png",
+               "animation":[{
+                            "XPosition": "50%",
+                            "YPosition": "10%",
+                            "scale": 1.5,
+                            "display": true,
+                            "duration":0,
+                            "offset": 6500,
+                            "zIndex": 100
+                    
+                    }
+                   
+               ]
+           },
+                    {
+                                    "desc":"modi",
+                                    "targetName":"modi",
+                                    "imageURL":"images/home/intern/images/modi.jpg",
+                                    "animation":[{
+                                                "XPosition": "40%",
+                                                "YPosition": "30%",
+                                                "scale": 1,
+                                                "display": true,
+                                                "duration":0,
+                                                "offset": 7500,
+                                                "zIndex": 100
+                            
+                            }
+                
+            ]
+           }
+
+        ]
+
+       
+    }   
+  }
+}

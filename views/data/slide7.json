@@ -1,0 +1,524 @@
+{
+    "desktop":{
+   
+      "business":{
+
+        "animation":[{
+         
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": false,
+                "duration": 1,
+                "offset": 0
+          },
+          {
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 1,
+                "offset": 2
+          }
+          
+        ],
+
+       
+
+          "images":[{
+ 
+            "desc":"profitguru2",
+            "targetName": "profitgurus",
+            "imageURL": "images/home/profitguru.png",
+             "animation":[{
+                   
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 0,
+                            "display": null,
+                            "duration": 0,
+                            "offset": 500,
+                            "zIndex": null
+                
+                   },
+                  
+                   {
+                            "XPosition": "5%",
+                            "YPosition": "-20%",
+                            "scale": 0.5,
+                            "display": true,
+                            "duration": 1000,
+                            "offset": 500,
+                            "zIndex": null
+                   }
+                 
+                ]
+              
+              },
+              {
+                "desc":"sub images",
+                "targetName":"garment",
+                "imageURL":"images/home/business/garment.png",
+                "animation":[{
+                  
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+                  },
+                  {
+                      
+                    "XPosition": "10%",
+                    "YPosition": "-5%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 1500,
+                    "zIndex": 100
+                  },
+                  {
+                            "XPosition": "10%",
+                            "YPosition": "-5%",
+                            "scale": 0.9,
+                            "display": true,
+                            "duration": 0,
+                            "offset": 1500,
+                            "zIndex": 100
+                  },
+                  {
+                            "XPosition": "30%",
+                            "YPosition": "10%",
+                            "scale": 2,
+                            "display": true,
+                            "duration": 1000,
+                            "offset": 9500,
+                            "zIndex": 100
+                  },
+                  {
+                            "XPosition": "30%",
+                            "YPosition": "10%",
+                            "scale": 0,
+                            "display": true,
+                            "duration": 500,
+                            "offset": 11500,
+                            "zIndex": 100
+                  }
+
+                ]
+
+
+              },
+              {
+                  "desc":"jewellery",
+                  "targetName":"jewelry",
+                  "imageURL":"images/home/business/jewellery.png",
+                  "animation":[{
+
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 0,
+                            "display": true,
+                            "duration": 1,
+                            "offset": 0
+
+                    },
+                    {
+                        "XPosition": "42%",
+                        "YPosition": "-32.5%",
+                        "scale": 1,
+                        "display": true,
+                        "duration": 0,
+                        "offset": 2500,
+                        "zIndex": 10
+                    },
+                    {
+                        "XPosition": "42%",
+                        "YPosition": "-32.5%",
+                        "scale": 0.3,
+                        "display": true,
+                        "duration": 0,
+                        "offset": 2500,
+                        "zIndex": 10
+                    },
+                    {
+                        "XPosition": "20%",
+                        "YPosition": "-20%",
+                        "scale": 0.6,
+                        "display": true,
+                        "duration": 1000,
+                        "offset": 12000,
+                        "zIndex": 100
+                    },
+                    {
+                        "XPosition": "20%",
+                        "YPosition": "-20%",
+                        "scale": 0,
+                        "display": true,
+                        "duration": 500,
+                        "offset": 13000,
+                        "zIndex": 100
+                    }
+                      
+                  ]
+              },
+              {
+                "desc":"restaurant",
+                "targetName":"restaurant",
+                "imageURL":"images/home/business/restaurant.png",
+                "animation":[{
+
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 0
+
+                  },
+                  {
+                    "XPosition": "-25%",
+                    "YPosition": "0%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 3500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "-25%",
+                    "YPosition": "0%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 3500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 13500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 14500,
+                    "zIndex": 100
+                  }
+                    
+                ]
+              },
+              {
+                "desc":"salon",
+                "targetName":"salon",
+                "imageURL":"images/home/business/salon.png",
+                "animation":[{
+
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,     
+                    "duration": 1,
+                    "offset": 0           
+                 
+                  },
+                  {
+                    "XPosition": "60%",
+                    "YPosition": "0%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 4500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "60%",
+                    "YPosition": "0%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 4500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 15000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 16000,
+                    "zIndex": 100
+                  }
+                    
+                ]
+              },
+              {
+                "desc":"grocery",
+                "targetName":"grocery",
+                "imageURL":"images/home/business/grocery.png",
+                "animation":[{
+
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,     
+                    "duration": 1,
+                    "offset": 0   
+
+                   },
+                   {
+                    "XPosition": "-4%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5500,
+                    "zIndex": 10
+                   },
+                   {
+                    "XPosition": "-4%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 5500,
+                    "zIndex": 10
+                   },
+                   {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 16500,
+                    "zIndex": 100
+                   },
+                   {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 17500,
+                    "zIndex": 100
+                   }
+                    
+                ]
+              },
+              {
+                "desc":"mobile",
+                "targetName":"mobile",
+                "imageURL":"images/home/business/mobile.png",
+                "animation":[{
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,     
+                    "duration": 1,
+                    "offset": 0                    
+
+                  },
+                  {
+                    "XPosition": "10%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 6500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "10%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 6500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 18500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 19000,
+                    "zIndex": 100
+                  }
+                    
+                ]
+              },
+              {
+                "desc":"pharmacy",
+                "targetName":"pharmacy",
+                "imageURL":"images/home/business/farmacy.png",
+                "animation":[{
+                      
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,     
+                    "duration": 1,
+                    "offset": 0         
+                
+                  },
+                  {
+                    "XPosition": "38%",
+                    "YPosition": "54%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 7500,
+                    "zIndex": 10
+
+                  },
+                  {
+                    "XPosition": "38%",
+                    "YPosition": "54%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 7500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "30%",
+                    "YPosition": "10%",
+                    "scale": 2,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 20000,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "30%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 21000,
+                    "zIndex": 100
+                  }
+
+                ]
+              },
+              {
+                "desc":"furniture",
+                "targetName":"furniture",
+                "imageURL":"images/home/business/furniture.png",
+                "animation":[{
+                    
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": true,     
+                    "duration": 1,
+                    "offset": 0     
+                      
+                  },
+                  {
+                    "XPosition": "40%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 8500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "40%",
+                    "YPosition": "25%",
+                    "scale": 0.3,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 8500,
+                    "zIndex": 10
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 21500,
+                    "zIndex": 100
+                  },
+                  {
+                    "XPosition": "20%",
+                    "YPosition": "-20%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 22000,
+                    "zIndex": 100
+                  }
+                    
+                ]
+              }
+             
+            ],
+            
+            "messages":[{
+              
+                 "targetName": "Onestop",
+                 "text": "One Stop Solution For All Your Business Problems",
+                 "animation":[{
+                    "XPosition": "10%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": true,
+                    "duration": 500,
+                    "offset": 0
+
+                    
+                    },
+                     
+                    
+                    
+                    {
+                     
+                        "XPosition": "0%",
+                        "YPosition": "40%",
+                        "scale": 2,
+                        "display": true,
+                        "duration": 0,
+                        "offset": 1000,
+                        "zIndex": 100
+                  
+                   }
+                     
+                 ]
+              
+             }
+         ]
+      }
+
+    }
+    
+}

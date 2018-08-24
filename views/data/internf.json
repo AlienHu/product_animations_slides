@@ -1,0 +1,668 @@
+{
+    "desktop":{
+           
+     "intern":{
+
+        "animation":[{
+
+            "XPosition": null,
+            "YPosition": null,
+            "scale": null,
+            "display": false,
+            "duration": 1,
+            "offset": 0
+            
+            },
+            {
+                "XPosition": null,
+                "YPosition": null,
+                "scale": null,
+                "display": true,
+                "duration": 1,
+                "offset": 2
+            }
+
+        ],
+        "messages":[{
+            "targetName": "alienhu",
+            "text": "AlienHU Pvt Ltd..",
+            "animation":[{
+
+                        "XPosition": "0%",
+                        "YPosition": "-20%",
+                        "scale": 0,
+                        "display": true,
+                        "duration": 100,
+                        "offset": 0
+                },
+                {
+                    
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 4,
+                    "display": true,
+                    "duration": 3000,
+                    "offset": 100,
+                    "zIndex": 100
+              
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 4000,
+                    "zIndex": 0
+                }
+                
+            ]
+        },
+        {
+            "targetName":"presents",
+            "text":"Present's",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 3100,
+                "zIndex": 100
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "40%",
+                    "scale": 2,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 3100,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "40%",
+                    "scale": 0,
+                    "display": false,
+                    "duration":0,
+                    "offset": 4000,
+                    "zIndex": 100
+                }
+                
+            ]
+        },
+        {
+            "targetName":"Thisishow",
+            "text":"This is How India was Born after Over 5000 years of History.",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 9000,
+                "zIndex": 100        
+   
+             },
+             {
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 2,
+                "display": true,
+                "duration": 1000,
+                "offset": 9000,
+                "zIndex": 100
+             }
+ 
+            ]
+        },
+        {
+            "targetName":"alexandar",
+            "text":"Alexander’s invasion of India",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 12000,
+                "zIndex": 100     
+               
+             },
+             {
+                "XPosition": "-30%",
+                "YPosition": "5%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 12000,
+                "zIndex": 100
+             },
+             {
+                "XPosition": "-30%",
+                "YPosition": "5%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 15000,
+                "zIndex": 100
+             }
+                
+            ]
+        },
+        {
+            "targetName":"rajaram",
+            "text":"Father of the Indian Renaissance",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 13500,
+                "zIndex": 100     
+           
+               },
+               {
+                "XPosition": "30%",
+                "YPosition": "0%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 13500,
+                "zIndex": 100
+               },
+               {
+                "XPosition": "30%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 16000,
+                "zIndex": 100
+               }
+                
+            ]
+        },
+        {
+            "targetName":"rebel",
+            "text":"The Indian Rebellion of 1857",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 17000,
+                "zIndex": 100     
+              },
+            {
+                "XPosition": "-30%",
+                "YPosition": "-5%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 17000,
+                "zIndex": 100
+            },
+            {
+                "XPosition": "-30%",
+                "YPosition": "-5%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 21000,
+                "zIndex": 100
+            }
+                  
+            ]
+        },
+        {
+            "targetName":"bengal",
+            "text":"The Partition of Bengal 1905",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 18000,
+                "zIndex": 100     
+           
+               },
+               {
+                "XPosition": "25%",
+                "YPosition": "-10%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 18000,
+                "zIndex": 100
+               },
+               {
+                "XPosition": "25%",
+                "YPosition": "-20%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 22000,
+                "zIndex": 100
+               }
+            ]
+
+        },
+        {
+            "targetName":"rewaltt",
+            "text":"The Rewaltt Satyagrah Of Mahatma Gandhi 1919",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 25000,
+                "zIndex": 100     
+               
+             },
+             {
+                "XPosition": "-30%",
+                "YPosition": "-15%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 25000,
+                "zIndex": 100
+             },
+             {
+                "XPosition": "25%",
+                "YPosition": "-20%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 27000,
+                "zIndex": 100
+               }
+                
+            ]
+        },
+        {
+            "targetName":"congress",
+            "text":"Formation Of National Congress",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 26000,
+                "zIndex": 100     
+               
+             },
+             {
+                "XPosition": "30%",
+                "YPosition": "-20%",
+                "scale": 1.5,
+                "display": true,
+                "duration": 0,
+                "offset": 26000,
+                "zIndex": 100
+             },
+             {
+                "XPosition": "25%",
+                "YPosition": "-20%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 28000,
+                "zIndex": 100
+               }
+                
+            ]
+        },
+        {
+            "targetName":"advert",
+            "text":"The Advert Of Mahatma Gandhi 1905",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 29000,
+                "zIndex": 100     
+               
+             },
+             {
+                "XPosition": "-30%",
+                "YPosition": "-20%",
+                "scale": 1.7,
+                "display": true,
+                "duration": 0,
+                "offset": 29000,
+                "zIndex": 100
+             },
+             {
+                "XPosition": "-14%",
+                "YPosition": "5%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 31000,
+                "zIndex": 100
+               }  
+            ]
+        }
+       
+        ],
+        "images":[{
+
+            "desc": "remake",
+            "targetName": "remake",
+            "imageURL": "images/home/intern/images/remakef.png",
+            "animation":[{
+
+                    "XPosition": "20%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": true,
+                    "duration":0,
+                    "offset": 4300,
+                    "zIndex": null
+                },
+                {
+                    "XPosition": "-10%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": true,
+                    "duration":2000,
+                    "offset": 4600,
+                    "zIndex": null
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": false,
+                    "duration":0,
+                    "offset": 8500,
+                    "zIndex": null
+                }
+                
+             ]
+
+           },
+           {
+               "desc":"digital india",
+               "targetName":"digialindia",
+               "imageURL":"images/home/intern/images/digitalIndia.png",
+               "animation":[{
+                            "XPosition": "75%",
+                            "YPosition": "10%",
+                            "scale": 1.5,
+                            "display": true,
+                            "duration":0,
+                            "offset": 6500,
+                            "zIndex": 100
+                    
+                    },
+                    {
+                        "XPosition": "0%",
+                        "YPosition": "0%",
+                        "scale": 0,
+                        "display": false,
+                        "duration":0,
+                        "offset": 8500,
+                        "zIndex": null
+                    }
+                   
+               ]
+           },
+                    {
+                                    "desc":"modi",
+                                    "targetName":"modi",
+                                    "imageURL":"images/home/intern/images/modi.jpg",
+                                    "animation":[{
+                                                "XPosition": "40%",
+                                                "YPosition": "30%",
+                                                "scale": 1,
+                                                "display": true,
+                                                "duration":0,
+                                                "offset": 7500,
+                                                "zIndex": 100
+                            
+                                        },
+                                        {
+                                            "XPosition": "0%",
+                                            "YPosition": "0%",
+                                            "scale": 0,
+                                            "display": false,
+                                            "duration":0,
+                                            "offset": 8500,
+                                            "zIndex": null
+                                        }
+                
+                                        ]
+                    },
+                    {
+                        "desc":"globe",
+                        "targetName":"globe",
+                        "imageURL":"images/home/intern/images/globe.png",
+                        "animation":[{
+
+                            "XPosition": "10%",
+                            "YPosition": "0%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 10000,
+                            "zIndex": null
+                         
+                        
+                          },
+                          {
+                            "XPosition": "3%",
+                            "YPosition": "0%",
+                            "scale": 0.4,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 11000,
+                            "zIndex": 100
+                          }
+                            
+                        ]
+
+                    },
+                    {
+                        "desc":"alexandar",
+                        "targetName":"alexznderpic",
+                        "imageURL":"images/home/intern/images/alexendar.jpg",
+                        "animation":[{
+                            "XPosition": "25%",
+                            "YPosition": "30%",
+                            "scale": 1.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 12500,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-11%",
+                            "YPosition": "15%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 15000,
+                            "zIndex": 100
+                         }
+                         
+                            
+                        ]
+                    },
+                    {
+                        "desc":"rajaram",
+                        "targetName":"rajarammohan",
+                        "imageURL":"images/home/intern/images/rajaram.jpg",
+                        "animation":[ {
+                            "XPosition": "35%",
+                            "YPosition": "7%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 14000,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-11%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 16000,
+                            "zIndex": 100
+                         }
+                        
+                            
+                        ]
+                    },
+                    {
+                        "desc":"revolt",
+                        "targetName":"revolt",
+                        "imageURL":"images/home/intern/images/revolt.jpg",
+                       "animation":[{
+                            "XPosition": "-20%",
+                            "YPosition": "10%",
+                            "scale": 0.8,
+                            "display": true,
+                            "duration":0,
+                            "offset": 17500,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-11%",
+                            "YPosition": "3%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 21000,
+                            "zIndex": 100
+                         }
+                            
+                        ]
+                    },
+                    {
+                        "desc":"bengal1",
+                        "targetName":"bengalpic",
+                        "imageURL":"images/home/intern/images/bengal.jpg",
+                        "animation":[ {
+                            "XPosition": "20%",
+                            "YPosition": "-10%",
+                            "scale": 0.4,
+                            "display": true,
+                            "duration":0,
+                            "offset": 19000,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-14%",
+                            "YPosition": "-16%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 22000,
+                            "zIndex": 100
+                         }
+
+                        ]
+                    },
+                    {
+                        "desc":"rewaltt",
+                        "targetName":"rewalttpic",
+                        "imageURL":"images/home/intern/images/rowlatt.jpg",
+                        "animation":[{
+                            "XPosition": "-25%",
+                            "YPosition": "10%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 25500,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-14%",
+                            "YPosition": "8%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 27000,
+                            "zIndex": 100
+                         }
+                            
+                        ]
+                    },
+                    {
+                        "desc":"congress",
+                        "targetName":"congresspic",
+                        "imageURL":"images/home/intern/images/congress.jpg",
+                        "animation":[{
+                            "XPosition": "45%",
+                            "YPosition": "15%",
+                            "scale": 0.9,
+                            "display": true,
+                            "duration":0,
+                            "offset": 26500,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-14%",
+                            "YPosition": "16%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 28000,
+                            "zIndex": 100
+                         }
+
+                        ]
+                    },
+                    {
+                        "desc":"advert1",
+                        "targetName":"avdertpic",
+                        "imageURL":"images/home/intern/images/advert.jpg",
+                        "animation":[{
+                            "XPosition": "-8%",
+                            "YPosition": "20%",
+                            "scale": 1,
+                            "display": true,
+                            "duration":0,
+                            "offset": 29500,
+                            "zIndex": 100
+                         },
+                         {
+                            "XPosition": "-14%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": true,
+                            "duration":1000,
+                            "offset": 31000,
+                            "zIndex": 100
+                         }
+
+                        ]
+                    }
+                    
+
+
+                    
+               
+        ]
+
+       
+    }   
+  }
+}

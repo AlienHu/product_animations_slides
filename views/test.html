@@ -209,14 +209,16 @@
         //calculate XPosition 
         if (animation.XPosition != null)
           obj.translateX = function (el) {
-            var width = $( window ).width();
+            var width = $(window).width();
             return width * parseInt(animation.XPosition) / 100
+          
           }
         //calculate YPosition
         if (animation.YPosition != null)
           obj.translateY = function (el) {
-            var width = $( window ).height();
-            return width * parseInt(animation.YPosition) / 100
+            var height = $(window).height();
+            return height * parseInt(animation.YPosition) / 100
+
           }
         //calculate Scale
         if (animation.scale != null)
@@ -241,7 +243,7 @@
         }
         timeline.add(obj)
       }
-      $.getJSON("./data/intern1.json", function (data) {
+      $.getJSON("./data/internf.json", function (data) {
         var desktop = data.desktop
         $.each(desktop, function (pageKey, page) {
           //create page

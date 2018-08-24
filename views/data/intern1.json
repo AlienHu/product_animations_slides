@@ -91,8 +91,318 @@
                 }
                 
             ]
+        },
+        {
+            "targetName":"india",
+            "text":"India On Its First Indepence Day",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 9000,
+                "zIndex": 100
+                
+                },    
+                {
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 2,
+                            "display": true,
+                            "duration": 0,
+                            "offset": 9000,
+                            "zIndex": 100
+                
+                },
+                {
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 13000,
+                            "zIndex": 100
+                }
+               
+            ]
+        },
+        {
+            "targetName":"never",
+            "text":"Never Forget Their Scarifice",
+            "animation":[{
+
+                "XPosition": "0%",
+                "YPosition": "-10%",
+                "scale": 0,
+                "display": true,
+                "duration": 0,
+                "offset": 13500,
+                "zIndex": 100 
+              },
+              {
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 2,
+                "display": true,
+                "duration": 1000,
+                "offset": 13500,
+                "zIndex": 100
+              },
+              {
+                "XPosition": "0%",
+                "YPosition": "0%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 18000,
+                "zIndex": 100
+              }
+                
+            ]
+           
+        },
+        {
+            "targetName":"andcontribution",
+            "text":"And Their Contribution To ReMake India",
+            "animation":[{
+                        "XPosition": "0%",
+                        "YPosition": "-10%",
+                        "scale": 0,
+                        "display": true,
+                        "duration": 0,
+                        "offset": 19000,
+                        "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 2,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 19000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 64500,
+                    "zIndex": 0
+                }
+                
+            ]
+        },
+        {
+            "targetName":"onee",
+            "text":"1st July 2015",
+            "animation":[{
+             
+                "XPosition": "0%",
+                "YPosition": "-10%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 65000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 2,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 65000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 68000,
+                    "zIndex": 100
+                }
+                
+            ]
+
+        },
+        {
+            "targetName":"WhatYouDid",
+            "text":"What You Did For Nation?",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "20%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 75000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 3,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 75000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 78000,
+                    "zIndex": 100
+                }
+                
+            ]
+        },
+        {
+            "targetName":"WhatIs",
+            "text":"What Is Your Contribution Towards Nation?",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "20%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 78000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 3,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 78000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 81000,
+                    "zIndex": 100
+                }
+                
+            ]
+        },
+        {
+            "targetName":"Nothing",
+            "text":"Nothing?",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "25%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 81000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "25%",
+                    "scale": 3,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 81000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "25%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 84000,
+                    "zIndex": 100
+                }
+                
+            ]
+        },
+        {
+            "targetName":"DontWorry",
+            "text":"Don't Worry",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "30%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 84000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 3,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 84000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "30%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 87000,
+                    "zIndex": 100
+                }
+                
+            ]
+        },
+        {
+            "targetName":"join",
+            "text":"Join Us On Our ReMake India Campaign",
+            "animation":[{
+                "XPosition": "0%",
+                "YPosition": "10%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 88000,
+                "zIndex": 100 
+                
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "10%",
+                    "scale": 3,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 88000,
+                    "zIndex": 100
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "10%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 91000,
+                    "zIndex": 100
+                }
+                
+            ]
         }
-       
+    
 
         ],
         "images":[{
@@ -118,6 +428,15 @@
                     "duration":2000,
                     "offset": 4600,
                     "zIndex": null
+                },
+                {
+                    "XPosition": "0%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": false,
+                    "duration":0,
+                    "offset": 8500,
+                    "zIndex": null
                 }
                 
              ]
@@ -136,6 +455,15 @@
                             "offset": 6500,
                             "zIndex": 100
                     
+                    },
+                    {
+                        "XPosition": "0%",
+                        "YPosition": "0%",
+                        "scale": 0,
+                        "display": false,
+                        "duration":0,
+                        "offset": 8500,
+                        "zIndex": null
                     }
                    
                ]
@@ -153,11 +481,598 @@
                                                 "offset": 7500,
                                                 "zIndex": 100
                             
-                            }
+                                        },
+                                        {
+                                            "XPosition": "0%",
+                                            "YPosition": "0%",
+                                            "scale": 0,
+                                            "display": false,
+                                            "duration":0,
+                                            "offset": 8500,
+                                            "zIndex": null
+                                        }
                 
-            ]
-           }
+                                        ]
+                    },
+                    {
+                        "desc":"ff",
+                        "targetName":"firstflag",
+                        "imageURL":"images/home/intern/images/firstflag.jpg",
+                        "animation":[{
+                            "XPosition": "0%",
+                            "YPosition": "-20%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 11000,
+                            "zIndex": null
+                        
+                          },
+                          {
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 13000,
+                            "zIndex": null
+                          }
+                            
+                        ]
+                    },
+                    {
+                        "desc":"sacrifice",
+                        "targetName":"scarifies",
+                        "imageURL":"images/home/intern/images/scarifies.jpg",
+                          "animation":[{
+                            "XPosition": "30%",
+                            "YPosition": "25%",
+                            "scale": 2,
+                            "display": true,
+                            "duration":0,
+                            "offset": 14500,
+                            "zIndex": null
+                            
+                           },
+                           {
+                            "XPosition": "30%",
+                            "YPosition": "25%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 18000,
+                            "zIndex": null
+                           }
+                              
+                          ]
+                         
+                    },
+                    {
+                        "desc":"bagatsingh",
+                        "targetName":"bagatsingh",
+                        "imageURL":"images/home/intern/images/bhagatsingh.png",
+                        "animation":[{
+                            "XPosition": "20%",
+                            "YPosition": "15%",
+                            "scale": 1,
+                            "display": true,
+                            "duration":0,
+                            "offset": 20000,
+                            "zIndex": 0
+                         
+                         },
+                         {
+                            "XPosition": "20%",
+                            "YPosition": "15%",
+                            "scale": null ,
+                            "display": false,
+                            "duration":0,
+                            "offset": 22000,
+                            "zIndex": 0
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"gandi",
+                        "targetName":"gandi",
+                        "imageURL":"images/home/intern/images/gandi.png",
+                        "animation":[{
+                            "XPosition": "0%",
+                            "YPosition": "-5%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 22500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "0%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 24500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"gandi",
+                        "targetName":"gandi",
+                        "imageURL":"images/home/intern/images/gandi.png",
+                        "animation":[{
+                            "XPosition": "0%",
+                            "YPosition": "-5%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 22500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "0%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 24500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"nehru",
+                        "targetName":"nehru",
+                        "imageURL":"images/home/intern/images/nehru.png",
+                        "animation":[{
+                            "XPosition": "18%",
+                            "YPosition": "10%",
+                            "scale": 1,
+                            "display": true,
+                            "duration":0,
+                            "offset": 25000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "18%",
+                            "YPosition": "10%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 27000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"lalbahadur",
+                        "targetName":"lalbahadur",
+                        "imageURL":"images/home/intern/images/lalbahdur.png",
+                        "animation":[{
+                            "XPosition": "18%",
+                            "YPosition": "10%",
+                            "scale": 1,
+                            "display": true,
+                            "duration":0,
+                            "offset": 27500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "18%",
+                            "YPosition": "10%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 29500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"tagor",
+                        "targetName":"tagor",
+                        "imageURL":"images/home/intern/images/tagor.jpg",
+                        "animation":[{
+                            "XPosition": "25%",
+                            "YPosition": "10%",
+                            "scale": 1,
+                            "display": true,
+                            "duration":0,
+                            "offset": 30000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "25%",
+                            "YPosition": "10%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 32000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"bose",
+                        "targetName":"bose",
+                        "imageURL":"images/home/intern/images/netaji.png",
+                        "animation":[{
+                            "XPosition": "20%",
+                            "YPosition": "15%",
+                            "scale": 1.2,
+                            "display": true,
+                            "duration":0,
+                            "offset": 32500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "20%",
+                            "YPosition": "15%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 34500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"apj",
+                        "targetName":"apj",
+                        "imageURL":"images/home/intern/images/kalam.png",
+                        "animation":[{
+                            "XPosition": "-3%",
+                            "YPosition": "-10%",
+                            "scale": 0.5,
+                            "display": true,
+                            "duration":0,
+                            "offset": 35000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "-3%",
+                            "YPosition": "-10%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 37000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"rani",
+                        "targetName":"rani",
+                        "imageURL":"images/home/intern/images/ranilaxmi.png",
+                        "animation":[{
+                            "XPosition": "15%",
+                            "YPosition": "-5%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 37500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "15%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 39500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"shivaji",
+                        "targetName":"shivaji",
+                        "imageURL":"images/home/intern/images/shivaji.png",
+                        "animation":[{
+                            "XPosition": "12%",
+                            "YPosition": "-5%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 40000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "12%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 42000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"tilak",
+                        "targetName":"tilak",
+                        "imageURL":"images/home/intern/images/tilak.png",
+                        "animation":[{
+                            "XPosition": "12%",
+                            "YPosition": "5%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 42500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "12%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 44500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"atal",
+                        "targetName":"atal",
+                        "imageURL":"images/home/intern/images/atal.png",
+                        "animation":[{
+                            "XPosition": "12%",
+                            "YPosition": "5%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 45000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "12%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 47000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"sachin",
+                        "targetName":"sachin",
+                        "imageURL":"images/home/intern/images/sachin.png",
+                        "animation":[{
+                            "XPosition": "25%",
+                            "YPosition": "15%",
+                            "scale": 1.2,
+                            "display": true,
+                            "duration":0,
+                            "offset": 47500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "25%",
+                            "YPosition": "15%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 49500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"dhoni",
+                        "targetName":"dhoni",
+                        "imageURL":"images/home/intern/images/dhoni.png",
+                        "animation":[{
+                            "XPosition": "10%",
+                            "YPosition": "-2%",
+                            "scale": 0.7,
+                            "display": true,
+                            "duration":0,
+                            "offset": 50000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "10%",
+                            "YPosition": "-2%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 52000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"bachan",
+                        "targetName":"bachan",
+                        "imageURL":"images/home/intern/images/bachan.png",
+                        "animation":[{
+                            "XPosition": "20%",
+                            "YPosition": "10%",
+                            "scale": 0.8,
+                            "display": true,
+                            "duration":0,
+                            "offset": 52500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "20%",
+                            "YPosition": "10%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 54500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"akshay",
+                        "targetName":"akshay",
+                        "imageURL":"images/home/intern/images/akshay.png",
+                        "animation":[{
+                            "XPosition": "20%",
+                            "YPosition": "-5%",
+                            "scale": 0.8,
+                            "display": true,
+                            "duration":0,
+                            "offset": 55000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "20%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 57000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"pv sindhu",
+                        "targetName":"pvsindhu",
+                        "imageURL":"images/home/intern/images/pv sindhu.png",
+                        "animation":[{
+                            "XPosition": "10%",
+                            "YPosition": "-5%",
+                            "scale": 0.6,
+                            "display": true,
+                            "duration":0,
+                            "offset": 57500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "10%",
+                            "YPosition": "-5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 59500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"ambani",
+                        "targetName":"ambani",
+                        "imageURL":"images/home/intern/images/ambani.png",
+                        "animation":[{
+                            "XPosition": "15%",
+                            "YPosition": "5%",
+                            "scale": 0.8,
+                            "display": true,
+                            "duration":0,
+                            "offset": 60000,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "15%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 62000,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"sundar",
+                        "targetName":"sundar",
+                        "imageURL":"images/home/intern/images/sundarpichai.png",
+                        "animation":[{
+                            "XPosition": "15%",
+                            "YPosition": "5%",
+                            "scale": 0.8,
+                            "display": true,
+                            "duration":0,
+                            "offset": 62500,
+                            "zIndex": null
+                         
+                         },
+                         {
+                            "XPosition": "15%",
+                            "YPosition": "5%",
+                            "scale": 0,
+                            "display": false,
+                            "duration":0,
+                            "offset": 64500,
+                            "zIndex": null
+                         }  
+                            
+                        ]
+                    },
+                    {
+                        "desc":"digitiger",
+                        "targetName":"digitiger",
+                        "imageURL":"images/home/intern/images/Digitiger.jpg",
+                        "animation":[{
 
+                            "XPosition": "15%",
+                            "YPosition": "15%", 
+                            "scale": 1.5,
+                            "display": true,
+                            "duration":0,
+                            "offset": 68000,
+                            "zIndex": null
+                            
+                            },
+                            {
+                                "XPosition": "15%",
+                                "YPosition": "15%",
+                                "scale": 0,
+                                "display": false,
+                                "duration":0,
+                                "offset": 73000,
+                                "zIndex": null
+                            }
+                            
+                        ]
+                    }
+
+
+
+                    
+               
         ]
 
        

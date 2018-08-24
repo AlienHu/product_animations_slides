@@ -143,8 +143,10 @@
   <br>
   <br>
   <!-- first section - Home -->
-  <div id="anime" class="container">
+  <div id="anime" class="container ">
   </div>
+  <!--<div id="anime2" class="container">
+  </div>-->
   <div class="container">
     <!-- /fourth section -->
     <div id="whatsappbot" style="display: inline-block!important;position: fixed;bottom: 15px;left: 15px;z-index: 1500; background-color: #fff; padding-right: 10px;">
@@ -210,7 +212,15 @@
         if (animation.XPosition != null)
           obj.translateX = function (el) {
             var width = $(window).width();
-            return width * parseInt(animation.XPosition) / 100
+            var containerWidth = document.getElementById("ani1").offsetWidth;
+            if(animation.needSub){
+              width = (containerWidth * parseInt(animation.XPosition) / 100) - (animation.imageSize / 2);
+              return width;
+            }else{
+              return width * parseInt(animation.XPosition) / 100
+            }
+            
+    
           
           }
         //calculate YPosition
@@ -243,11 +253,12 @@
         }
         timeline.add(obj)
       }
-      $.getJSON("./data/internf.json", function (data) {
+      $.getJSON("./data/slide4.json", function (data) {
         var desktop = data.desktop
         $.each(desktop, function (pageKey, page) {
           //create page
           $('#anime').append('<div id="' + pageKey + '"></div>')
+          //$('#anime2').append('<div id="' + pageKey + '"></div>')
           //loop page animations
           $.each(page.animation, function (key, animation) {
             translate(pageKey, animation);
@@ -271,6 +282,36 @@
             })
           })
         })
+
+       /* var mobile = data.mobile
+        $.each(mobile, function (pageKey, page) {
+          //create page
+          
+          $('#anime2').append('<div id="' + pageKey + '"></div>')
+          //loop page animations
+          $.each(page.animation, function (key, animation) {
+            translate(pageKey, animation);
+          })
+          //loop image animations
+          $.each(page.images, function (Key, image) {
+            $("#" + pageKey).append('<div id="' + image.targetName +
+              '" style="display: none;position: absolute;"><img src="' +
+              image.imageURL + '" class="img-responsive"></div>');
+            $.each(image.animation, function (key, animation) {
+              translate(image.targetName, animation);
+            })
+          })
+          //loop message animations 
+          $.each(page.messages, function (Key, message) {
+            $("#" + pageKey).append('<p id="' + message.targetName +
+              '" class="text-center">' + message.text +
+              '</p>');
+            $.each(message.animation, function (key, animation) {
+              translate(message.targetName, animation);
+            })
+          })
+        })*/
+
       })
     </script>
     <script>

@@ -455,24 +455,26 @@
                         "imageURL":"images/home/intern/images/globe.png",
                         "animation":[{
 
-                            "XPosition": "10%",
+                            "XPosition": "50%",
                             "YPosition": "0%",
-                            "scale": 0.6,
+                            "scale": 1,
                             "display": true,
                             "duration":0,
                             "offset": 10000,
-                            "zIndex": null
-                         
-                        
+                            "zIndex": null,
+                            "imageSize" : 450,
+                            "needSub" : true
                           },
                           {
-                            "XPosition": "3%",
+                            "XPosition": "50%",
                             "YPosition": "0%",
                             "scale": 0.4,
                             "display": true,
                             "duration":1000,
                             "offset": 11000,
-                            "zIndex": 100
+                            "zIndex": 100,
+                            "imageSize" : 450,
+                            "needSub" : true
                           }
                             
                         ]
@@ -483,22 +485,24 @@
                         "targetName":"alexznderpic",
                         "imageURL":"images/home/intern/images/alexendar.jpg",
                         "animation":[{
-                            "XPosition": "25%",
-                            "YPosition": "30%",
-                            "scale": 1.6,
+                            "XPosition": "0%",
+                            "YPosition": "0%",
+                            "scale": 1,
                             "display": true,
                             "duration":0,
                             "offset": 12500,
                             "zIndex": 100
                          },
                          {
-                            "XPosition": "-11%",
-                            "YPosition": "15%",
+                            "XPosition": "50%",
+                            "YPosition": "0%",
                             "scale": 0,
                             "display": true,
                             "duration":1000,
                             "offset": 15000,
-                            "zIndex": 100
+                            "zIndex": 100,
+                            "imageSize" : 196,
+                            "needSub" : true
                          }
                          
                             
@@ -509,22 +513,24 @@
                         "targetName":"rajarammohan",
                         "imageURL":"images/home/intern/images/rajaram.jpg",
                         "animation":[ {
-                            "XPosition": "35%",
-                            "YPosition": "7%",
-                            "scale": 0.6,
+                            "XPosition": "50%",
+                            "YPosition": "0%",
+                            "scale": 1,
                             "display": true,
                             "duration":0,
                             "offset": 14000,
                             "zIndex": 100
                          },
                          {
-                            "XPosition": "-11%",
-                            "YPosition": "5%",
+                            "XPosition": "50%",
+                            "YPosition": "0%",
                             "scale": 0,
                             "display": true,
                             "duration":1000,
                             "offset": 16000,
-                            "zIndex": 100
+                            "zIndex": 100,
+                            "imageSize" : 646,
+                            "needSub" : true
                          }
                         
                             

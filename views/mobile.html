@@ -143,7 +143,7 @@
   <br>
   <br>
   <!-- first section - Home -->
-  <div id="anime" class="container">
+  <div id="anime" class="container hidden-sm hidden-md hidden-lg">
    <!-- class hidden-xs -->
      </div>
   </div>
@@ -255,7 +255,7 @@
         }
         timeline.add(obj)
       }
-      $.getJSON("./data/internf.json", function (data) {
+      $.getJSON("./data/internmobile1.json", function (data) {
         var desktop = data.desktop
         $.each(desktop, function (pageKey, page) {
           //create page
@@ -266,6 +266,8 @@
             translate(pageKey, animation);
           })
           //loop image animations
+          
+
           $.each(page.images, function (Key, image) {
             $("#" + pageKey).append('<div id="' + image.targetName +
               '" style="display: none;position: absolute;"><img src="' +
@@ -276,9 +278,9 @@
           })
           //loop message animations 
           $.each(page.messages, function (Key, message) {
-            $("#" + pageKey).append('<p id="' + message.targetName +
-              '" class="text-center">' + message.text +
-              '</p>');
+            $("#" + pageKey).append('<h1 id="' + message.targetName +
+              '">' + message.text +
+              '</h1>');
             $.each(message.animation, function (key, animation) {
               translate(message.targetName, animation);
             })

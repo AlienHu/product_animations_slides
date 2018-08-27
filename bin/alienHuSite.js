@@ -165,6 +165,10 @@ router.get("/refundPolicy", function (req, res) {
 router.get("/eula", function (req, res) {
     res.sendFile(webSitePath + "/eula.html");
 });
+
+// router.get("/mobile", function (req,res){
+//     res.sendFile(webSitePath + "/mobile.html");
+// });
 app.use("/", router);
 
 router.get("/update-password", function (req, res) {

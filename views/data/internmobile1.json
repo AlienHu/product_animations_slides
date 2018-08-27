@@ -1,0 +1,743 @@
+{
+    "desktop":{
+        "intern":{
+
+            "animation":[{
+                    "XPosition": null,
+                    "YPosition": null,
+                    "scale": null,
+                    "display": false,
+                    "duration": 1,
+                    "offset": 0
+            },
+            {
+                    "XPosition": null,
+                    "YPosition": null,
+                    "scale": null,
+                    "display": true,
+                    "duration": 1,
+                    "offset": 2
+            }
+
+            ],
+            "messages":[{
+    
+                    "targetName":"alienhu",
+                    "text": "AlienHU Pvt Ltd!!",
+                    "animation":[{
+
+                        "XPosition": "20%",
+                        "YPosition": "20%",
+                        "scale": 0,
+                        "display": false,
+                        "duration": 500,
+                        "offset": 0,
+                        "imageSize" : 5,
+                         "needSub" : true
+                       
+                     
+                     },
+                     {
+                        "XPosition": "20%",
+                        "YPosition": "20%",
+                        "scale": 1,
+                        "display": true,
+                        "duration": 2000,
+                        "offset": 500,
+                        "zIndex": 0,
+                        "imageSize" : 5,
+                         "needSub" : true
+                       
+                     },
+                     {
+                        "XPosition": "20%",
+                        "YPosition": "20%",
+                        "scale": 0,
+                        "display": false,
+                        "duration": 0,
+                        "offset": 3500,
+                        "zIndex": 0,
+                        "imageSize" : 5,
+                         "needSub" : false
+                     }
+                        
+                    ]
+               
+              },
+              {
+    
+                "targetName":"presents",
+                "text": "Present's",
+                "animation":[{
+
+                    "XPosition": "40%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 2500,
+                    "imageSize" : 40,
+                    "needSub" : true
+                   
+                 
+                 },
+                 {
+                    "XPosition": "40%",
+                    "YPosition": "20%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 2500,
+                    "zIndex": 0,
+                    "imageSize" : 40,
+                     "needSub" : true
+                   
+                 },
+                 {
+                    "XPosition": "40%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 3500,
+                    "zIndex": 0,
+                    "imageSize" : 40,
+                     "needSub" : false
+                 }
+                    
+                ]
+           
+          },
+          {
+            "targetName":"This",
+            "text": "This is How India Born",
+            "animation":[{
+
+                "XPosition": "40%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 13000,
+                "imageSize" : 40,
+                "needSub" : true
+             
+             },
+             {
+                "XPosition": "20%",
+                "YPosition": "40%",
+                "scale": 1,
+                "display": true,
+                "duration": 1000,
+                "offset": 13000,
+                "zIndex": 0,
+                "imageSize" : 40,
+                 "needSub" : true
+             },
+             {
+                "XPosition": "20%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 15000,
+                "zIndex": 0,
+                "imageSize" : 40,
+                 "needSub" : true
+             }
+                 
+            ]
+
+          },
+          {
+            "targetName":"overaround",
+            "text": "Over Around 5000 Years",
+            "animation":[{
+                "XPosition": "40%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 14000,
+                "imageSize" : 40,
+                "needSub" : true
+           
+             },
+             {
+                 
+                "XPosition": "20%",
+                "YPosition": "40%",
+                "scale": 1,
+                "display": true,
+                "duration": 1000,
+                "offset": 14000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+             },
+             {
+                "XPosition": "20%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 15000,
+                "zIndex": 0,
+                "imageSize" : 40,
+                 "needSub" : true
+             }
+                
+            ]
+          },
+          {
+            "targetName":"firstking",
+            "text": "First King Of India",
+            "animation":[{
+                "XPosition": "40%",
+                "YPosition": "40%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 18000,
+                "imageSize" : 40,
+                "needSub" : true
+           
+               },
+               {
+                "XPosition": "0%",
+                "YPosition": "30%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 18000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+               },
+               {
+                "XPosition": "-100%",
+                "YPosition": "0%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 19000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+               }
+                
+            ]
+          },
+          {
+            "targetName":"Bengaldivison",
+            "text": "The Partition of Bengal 1905",
+            "animation":[{
+                "XPosition": "40%",
+                "YPosition": "25%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 21000,
+                "imageSize" : 40,
+                "needSub" : true
+           
+               },
+               {
+                "XPosition": "0%",
+                "YPosition": "20%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 21000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+               },
+               {
+                "XPosition": "-100%",
+                "YPosition": "20%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 22000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+               }
+                
+            ]
+          },
+          {
+            "targetName":"satyagraha",
+            "text": "Rewaltt Satyagrah 1919",
+            "animation":[{
+
+                "XPosition": "40%",
+                "YPosition": "10%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 24000,
+                "imageSize" : 40,
+                "needSub" : true
+             
+             },
+             {
+                "XPosition": "10%",
+                "YPosition": "10%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 24000,
+                "zIndex": 0,
+                "imageSize" : 160,
+                 "needSub" : true
+             },
+             {
+                "XPosition": "-100%",
+                "YPosition": "20%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 25000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+             }
+                
+            ]
+          },
+          {
+            "targetName":"rebellion",
+            "text": "The Indian Rebellion of 1857",
+            "animation":[{
+
+                "XPosition": "40%",
+                "YPosition": "10%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 26000,
+                "imageSize" : 40,
+                "needSub" : true
+             
+              },
+              {
+                "XPosition": "10%",
+                "YPosition": "0%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 26000,
+                "zIndex": 0,
+                "imageSize" : 160,
+                 "needSub" : true
+              },
+              {
+                "XPosition": "-100%",
+                "YPosition": "0%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 28000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+              }
+                
+            ]
+          },
+          {
+            "targetName":"congresstext",
+            "text": "Formation Of National Congress",
+            "animation":[{
+                "XPosition": "40%",
+                "YPosition": "10%",
+                "scale": 0,
+                "display": false,
+                "duration": 0,
+                "offset": 30000,
+                "imageSize" : 40,
+                "needSub" : true        
+              },
+              {
+                "XPosition": "10%",
+                "YPosition": "0%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 30000,
+                "zIndex": 0,
+                "imageSize" : 160,
+                 "needSub" : true
+              },
+              {
+                "XPosition": "-100%",
+                "YPosition": "0%",
+                "scale": 0.7,
+                "display": true,
+                "duration": 0,
+                "offset": 31000,
+                "zIndex": 0,
+                "imageSize" : 80,
+                 "needSub" : true
+              }
+                
+            ]
+          }
+
+
+            ],
+           
+           
+           
+            "images":[{
+
+                "desc": "remake",
+                "targetName": "remake",
+                "imageURL": "images/home/intern/images/remakef.png",
+                "animation":[{
+
+                                "XPosition": "30%",
+                                "YPosition": "20%",
+                                "scale": 0,
+                                "display": false,
+                                "duration": 0,
+                                "offset": 4000,
+                                "imageSize" : 300,
+                                "needSub" : true
+                            
+                   },
+                   {
+                    "XPosition": "30%",
+                    "YPosition": "20%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 4000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                   },
+                   {
+                    "XPosition": "30%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 6000,
+                    "imageSize" : 300,
+                    "needSub" : false
+                   }
+
+                ]
+             
+              },
+              {
+                "desc": "digitalindia",
+                "targetName": "digitalindia",
+                "imageURL": "images/home/intern/images/digitalindia.png",
+                "animation":[{
+
+                    "XPosition": "50%",
+                    "YPosition": "20%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 6500,
+                    "imageSize" : 300,
+                    "needSub" : true
+               
+                   },
+                   {
+                    "XPosition": "50%",
+                    "YPosition": "30%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 1000,
+                    "offset": 6500,
+                    "imageSize" : 300,
+                    "needSub" : true
+                   },
+                   {
+                    "XPosition": "50%",
+                    "YPosition": "30%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 8000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                   }
+                    
+                ]
+              },
+              {
+                "desc": "globegif",
+                "targetName": "globegif",
+                "imageURL": "images/home/intern/images/globe.gif",
+                "animation":[{
+
+                    "XPosition": "50%",
+                    "YPosition": "30%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 8000,
+                    "imageSize" : 350,
+                    "needSub" : true
+                 
+                 },
+                 {
+                    "XPosition": "50%",
+                    "YPosition": "0%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 9000,
+                    "imageSize" : 350,
+                    "needSub" : true
+                 },
+                 {
+                    "XPosition": "70%",
+                    "YPosition": "0%",
+                    "scale": 0,
+                    "display": false,
+                    "duration": 0,
+                    "offset": 11000,
+                    "imageSize" : 350,
+                    "needSub" : true
+                 }
+                    
+                ]
+              },
+              {
+                "desc": "globe1",
+                "targetName": "globe1",
+                "imageURL": "images/home/intern/images/globe.png",
+                "animation":[{
+                    "XPosition": "40%",
+                    "YPosition": "-3%",
+                    "scale": 0.9,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 11000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 
+                 },
+                 {
+                    "XPosition": "40%",
+                    "YPosition": "-15%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 11000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 }
+                    
+                ]
+              },
+              {
+                "desc": "rajaram",
+                "targetName": "rajaram",
+                "imageURL": "images/home/intern/images/rajaram.png",
+                "animation":[{
+
+                
+                    "XPosition": "100%",
+                    "YPosition": "27%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 16000,    
+                    "imageSize" : 300,
+                    "needSub" : true
+                    
+                
+                 },
+                 {
+                    "XPosition": "23%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 16000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                    
+                 },
+                 {
+                    "XPosition": "-50%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 19000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 }
+                                
+                ]
+              },
+              {
+                "desc": "bengal1",
+                "targetName": "bengal1",
+                "imageURL": "images/home/intern/images/bengal.png",
+                "animation":[{
+                    "XPosition": "100%",
+                    "YPosition": "27%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 19000,    
+                    "imageSize" : 300,
+                    "needSub" : true
+                 
+                  },
+                  {
+                    "XPosition": "23%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 19000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                  },
+                  {
+                    "XPosition": "-50%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 22000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                  }
+                    
+                ]
+              },
+              {
+                "desc": "satyagraha1",
+                "targetName": "satyagraha1",
+                "imageURL": "images/home/intern/images/rowlatt.png",
+                "animation":[{
+                    "XPosition": "100%",
+                    "YPosition": "27%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 22000,    
+                    "imageSize" : 300,
+                    "needSub" : true              
+                 
+                 },
+                 {
+                    "XPosition": "23%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 22000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 },
+                 {
+                    "XPosition": "-50%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 25000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 }
+                    
+                ]
+              },
+              {
+                "desc": "revolt",
+                "targetName": "revolt1",
+                "imageURL": "images/home/intern/images/revolt.png",
+                "animation":[{
+
+                    "XPosition": "100%",
+                    "YPosition": "27%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 25000,    
+                    "imageSize" : 300,
+                    "needSub" : true      
+                 
+                 },
+                 {
+                    "XPosition": "23%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 25000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 },
+                 {
+                    "XPosition": "-50%",
+                    "YPosition": "27%",
+                    "scale": 0.6,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 28000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                 }
+                    
+                    
+                ]
+              },
+              {
+                "desc": "congresspic",
+                "targetName": "congresspic",
+                "imageURL": "images/home/intern/images/congress.jpg",
+                "animation":[{
+                    "XPosition": "100%",
+                    "YPosition": "27%",
+                    "scale": 0.5,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 28000,    
+                    "imageSize" : 300,
+                    "needSub" : true      
+                 
+                  },
+                  {
+                    "XPosition": "23%",
+                    "YPosition": "27%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 2000,
+                    "offset": 28000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                  },
+                  {
+                    "XPosition": "-50%",
+                    "YPosition": "27%",
+                    "scale": 1,
+                    "display": true,
+                    "duration": 0,
+                    "offset": 31000,
+                    "imageSize" : 300,
+                    "needSub" : true
+                  }
+                    
+                ]
+
+              }
+            ]
+
+ 
+        }
+    }
+}

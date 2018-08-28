@@ -47,6 +47,12 @@ router.get("/", function (req, res) {
 router.get("/anime", function (req, res) {
     res.sendFile(webSitePath + "/test.html");
 });
+
+router.get("/mobileintern", function (req, res){
+    res.sendFile(webSitePath + "/mobile.html");
+});
+
+
 app.use("/", router);
 
 app.use("*", function (req, res) {

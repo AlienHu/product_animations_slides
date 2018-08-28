@@ -45,7 +45,7 @@ router.get("/", function (req, res) {
 });
 
 router.get("/anime", function (req, res) {
-    res.sendFile(webSitePath + "/test.html");
+    res.sendFile(webSitePath + "/mobile.html");
 });
 
 router.get("/mobileintern", function (req, res){
